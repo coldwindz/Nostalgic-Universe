@@ -94,7 +94,7 @@ header{
     padding: 50px 5px;
 }
 .pikaImg{
-    position: relative;
-    top: 60px;
-    left: 45px;
+    position: fixed;
+    left: 600px;
+    top: 300px;
 }
