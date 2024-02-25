@@ -14,16 +14,18 @@ html{
 }
 header{
     height: 100vh;
+    width: auto;
     /* padding: 5vh 10vh; */
     margin: 5vh 10vh;
 }
 .navbar{
     display: flex;
     height: 15vh;
+    width: auto;
 }
 .navRight{
     position: relative;
-    left: 45vh;
+    left: 60vh;
     cursor: pointer;
 }
 .btn{
@@ -82,19 +84,26 @@ header{
 }
 .watch{
     margin: 20px 5px;
-    padding: 10px 25px;
+    padding: 10px 20px;
     cursor: pointer;
     border-radius: 50px;
     color: white;
     background-color: black;
     font-family: "Inter", sans-serif;
     font-weight: 600;
+    
+
+
 }
 .img3{
     padding: 50px 5px;
 }
 .pikaImg{
-    position: fixed;
-    left: 750px;
-    top: 300px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.catcontainer{
+    
 }
