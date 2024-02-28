@@ -42,6 +42,12 @@ header{
     border-radius: 20px;
     padding: 5px 15px;
 }
+
+.SignUp:hover{
+    background-color: black;
+    color: white;
+}
+
 .unlisted{
     display: flex;
 }
@@ -92,10 +98,15 @@ header{
     background-color: black;
     font-family: "Inter", sans-serif;
     font-weight: 600;
-    
 
 
 }
+
+.watch:hover{
+background-color: white;
+color: black;
+}
+
 .img3{
     padding: 50px 5px;
 }
