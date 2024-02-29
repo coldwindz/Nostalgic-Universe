@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Ephesis&family=Indie+Flower&family=Inter:wght@100..900&family=Lexend+Mega:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    /* height: 100vh;
+    width: auto; */
+    /* padding: 5vh 10vh; */
+    /* margin: 5vh 10vh;  */
+}
+
+
+
+.navbar{
+    /* height: 15vh; */
+    /* width: auto; */
+    /* background-color: beige; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    /* background-color: white; */
+    background-color: RGB 245, 254, 253;
+}
+
+.logo{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    /* margin-right: 10px; */
+    /* margin-bottom: 20px; */
+    padding: 10px 10px;
+    align-items: center;
+}
+
+.logo img{
+    width: 75%;
+    align-items: center;
+}
+
+.nav-list{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    
+}
+.listed{
+    list-style: none;
+    /* margin: 25px; */
+    padding: 26px 30px;
+}
+.listed > a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.listed > a:hover {
+   
+}
+
+.navRight{
+    /* background-color: purple; */
+    text-align: right;
+    width: 50%;
+    align-items: center;
+    
+}
+
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 9px; 
+}
+
+.background{
+    /* background: rgba(0, 0, 0, 0.7) url('../img/yan-ru-afternoon1.jpg'); */
+    background: rgba(0, 0, 0, 0.2) url('../img/yan-ru-afternoon1.jpg');
+    
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
+.firstSection{
+    height: 100vh;
+    
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: RGB 12, 9, 10;
+}
+
+.firstHalf > h1{
+    font-size: 45px;
+    z-index: 1;
+    
+    
+}
+
+
+
+.firstHalf > p{
+    font-size: 18px;
+    padding-top: 10px;
+    margin-top: 10px;
+    
+}
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf.img{
+    display: block;
+    margin: auto;
+}
+
+.btn{
+    background: none;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px;
+    color: black
+}
+.SignUp{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 15px;
+    color: black;
+}
+
+.SignUp:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.welcome{
+    display: flex;
+}
+.container{
+    width: 100%;
+    height:100vh;
+    font-size: 22px;
+}
+.content1{
+    width: 80vh;
+}
+.content1 > h1{
+    display: inline-block;
+    font-size: 45px;
+}
+.content1 > p{
+    margin: 30px 0;
+    width: 70vh;
+
+}
+.underline{
+    height: 14px;
+    width: 26rem;
+    /* z-index: -1; */
+    background-color: black;
+    position: relative;
+    bottom: 10px;
+    border-radius: 50px;
+}
+
+
+
+.watch{
+    margin: 20px 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    border: 2px solid black;
+
+
+}
+
+.watch:hover{
+background-color: white;
+color: black;
+}
+
+.img3{
+    padding: 50px 5px;
+}
+.pikaImg{
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.catcontainer{
+    
+}

@@ -1,75 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nostalgic Universe</title>
     <link rel="shortcut icon" href="" type="image/x-icon">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/index.css">
     <script src="https://kit.fontawesome.com/32befec230.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
+    <header></header>
         <nav class="navbar">
-            <ul class="unlisted">
-                <li class="listed"><a href="">Home</a></li>
+            <ul class="nav-list">
+                <div class="logo"><img src="img/nu_logo-removebg-preview.png" alt="logo"></div>
+
                 <li class="listed"><a href="">Shows</a></li>
                 <li class="listed"><a href="">Products</a></li>
                 <li class="listed"><a href="https://www.nostalgicuniverse.great-site.net/index.php">Forum</a></li>
                 <li class="listed"><a href="">Help</a></li>
             </ul>
             <div class="navRight">
+                <input type="text" name="search" id="search">
+                <button class="btn btn-sm">Search</button>
                 <button class="login btn">Login</button>
                 <button class="SignUp btn">Signup</button>
             </div>
         </nav>
-   
-        <div class="welcome">
-            <div class="content1">
-                <h1>Welcome to</h1> <br>
-                   <div class="container"> <h1><span class="autotype"></span></h1>
-                <div class="underline"></div>
-                <p>A destination to relive all your old childhood memories. In this fast paced world, lets take a moment to remember the legacy our legends have created and left behind for us to witness in this digital era. Always and forever.</p>
+    
+
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+
+                <h1>Welcome to <br>
+                <span class="autotype"></span></h1>
+                <!-- <div class="underline"></div> -->
+                <p>A destination to relive all your old childhood memories. In this fast paced world, lets take a moment
+                    to remember the legacy our legends have created and left behind for us to witness in this digital
+                    era. Always and forever.</p>
                 <button class="watch">Watch now</button>
-                <div class="img3">
+
+                <!-- <p class="text-big">A restpoint for you in this fast paced world.</p>
+                <p class="small-text">In this world where everyone is some race or the other, fighting against each
+                    other to be the best or fighting with themselves to the the best version of themselves. Who is
+                    asking you to take break and regain your strength to achieve wonders. Here we do that.</p> -->
+            </div>
+            <div class="secondHalf">
+                <img src="img/Pikachu.png" alt="pikachu">
+            </div>
+        </div>
+    </section>
+
+    <!-- <div class="welcome">
+        <div class="content1">
+            <h1>Welcome to</h1> <br>
+            <div class="container">
+                <h1><span class="autotype"></span></h1>
+                <div class="underline"></div>
+                <p>A destination to relive all your old childhood memories. In this fast paced world, lets take a moment
+                    to remember the legacy our legends have created and left behind for us to witness in this digital
+                    era. Always and forever.</p>
+                <button class="watch">Watch now</button> -->
+                <!-- <div class="img3">
                     <img src="img/International_Pokemon_logo.png" alt="img1" height="50vh">
                     <img src="img/Logo_Doraemon_2005_version.jpg" alt="img2" height="50vh">
                     <img src="img/Chhota_Bheem_logo.png" alt="img3" height="50vh">
-                </div>
-            </div>
-           
-        </div>
+                </div> -->
+            <!-- </div> -->
+
+            <!-- </div>
         <div class="pikaImg">
             <img src="img/Pikachu.png" alt="Pikachu">
-        </div>
-    </header>
+        </div> -->
 
-<!-- <video src="vids/Chhota Bheem Title Song in HD 2.mp4" height="255" controls poster="img/Chhota_Bheem_logo.png"></video> -->
 
-<div>
+            <!-- <video src="vids/Chhota Bheem Title Song in HD 2.mp4" height="255" controls poster="img/Chhota_Bheem_logo.png"></video> -->
 
-</div>
+            <!-- <div>
 
-    <script src="index.js"></script>
+            </div> -->
 
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script src="index.js"></script>
 
-    <script>
-        var typed = new Typed(".autotype", {
-            strings: ["your Childhood", "your distant past", "your old memories", "Nostalgic Universe"], 
-            typeSpeed: 50,
-            backSpeed: 35,
-            startDelay: 0,
-            smartBackspace: true,
-            backDelay: 1000,
-            fadeOut: false,
-            fadeOutClass: 'typed-fade-out',
-            fadeOutDelay: 180,
-            loop: true,
-            loopCount: 5,
-        
-           
-        })
-    </script>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+            <script>
+                var typed = new Typed(".autotype", {
+                    strings: ["your Childhood", "your distant past", "your old memories", "Nostalgic Universe"],
+                    typeSpeed: 50,
+                    backSpeed: 35,
+                    startDelay: 0,
+                    smartBackspace: true,
+                    backDelay: 1000,
+                    fadeOut: false,
+                    fadeOutClass: 'typed-fade-out',
+                    fadeOutDelay: 180,
+                    loop: true,
+                    loopCount: 5,
+
+
+                })
+            </script>
 </body>
+
 </html>
