@@ -33,6 +33,7 @@ header{
     cursor: pointer;
     /* background-color: white; */
     background-color: RGB 245, 254, 253;
+    padding: 0 15px;
 }
 
 .logo{
@@ -43,11 +44,20 @@ header{
     /* margin-bottom: 20px; */
     padding: 10px 10px;
     align-items: center;
+    
+}
+
+.logo:hover{
+    /* border: 2px solid white;
+    border-radius: 50%;
+    background-color: white;
+    padding: 2px 0; */
 }
 
 .logo img{
     width: 75%;
     align-items: center;
+    
 }
 
 .nav-list{
@@ -68,7 +78,13 @@ header{
 }
 
 .listed > a:hover {
-   
+   /* border: 2px solid black;
+   border-radius: 20px;
+   padding: 5px 12px;
+   border-color: black;
+   background-color: black; */
+   /* color: rgb(76, 206, 184);  */
+  
 }
 
 .navRight{
@@ -76,19 +92,19 @@ header{
     text-align: right;
     width: 50%;
     align-items: center;
-    
+    padding: 0 15px;
 }
 
 #search{
     padding: 5px;
     font-size: 17px;
     border: 2px solid black;
-    border-radius: 9px; 
+    border-radius: 20px; 
 }
 
 .background{
     /* background: rgba(0, 0, 0, 0.7) url('../img/yan-ru-afternoon1.jpg'); */
-    background: rgba(0, 0, 0, 0.2) url('../img/yan-ru-afternoon1.jpg');
+    background: rgba(0, 0, 0, 0.6) url('../img/yan-ru-afternoon1.jpg');
     
     background-size: cover;
     background-blend-mode: darken;
@@ -114,22 +130,19 @@ header{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: RGB 12, 9, 10;
+    color: white;
 }
 
 .firstHalf > h1{
     font-size: 45px;
     z-index: 1;
-    
-    
 }
-
-
 
 .firstHalf > p{
     font-size: 18px;
     padding-top: 10px;
     margin-top: 10px;
+    font-weight: 400;
     
 }
 
@@ -151,17 +164,250 @@ header{
     margin: 10px;
     color: black
 }
+
+.btn-sm{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 12px;
+    /* vertical-align: middle; */
+    cursor: pointer;
+}
+
+.login:hover{
+    /* border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px 15px; */
+    /* color: white;
+    background-color: black; */
+    cursor: pointer;
+}
+
 .SignUp{
     border: 2px solid black;
     border-radius: 20px;
     padding: 5px 15px;
-    color: black;
+    color: white;
+    background-color: black;
 }
 
 .SignUp:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.watch{
+    margin: 22px 0;
+    padding: 10px 12px;
+    cursor: pointer;
+    border-radius: 50px;
+    color: white;
+    /* background-color: white; */
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    border: 2px solid white;
+    font-size: 16px;
+    width: 150px;
+    background: none;
+}
+
+.watch:hover{
     background-color: black;
     color: white;
+    }
+
+.discuss{
+    padding: 10px 12px;
+    cursor: pointer;
+    border-radius: 50px;
+    color: white;
+    /* background-color: white; */
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    border: 2px solid white;
+    font-size: 16px;
+    width: 150px;
+    background: none;
+    margin: 0 10px;
 }
+
+.discuss:hover{
+    background-color: black;
+    color: white;
+    }
+
+.section{
+    /* height: 500px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    padding: 16px 0;
+}
+
+.textbig{
+    font-size: 45px;
+}
+
+.textsmall{
+    font-size: 18px;
+}
+
+.thumbnail{
+    padding-left: 30px;
+}
+
+.thumbnail img{
+    width: 75%;
+    /* padding-left: 20px; */
+    
+}
+
+.paras{
+padding-top: 60px;
+padding-bottom: 50px;
+padding-left: 62px;
+/* padding-right: 50px; */
+width: 290%;
+}
+
+
+
+.left{
+    flex-direction: row-reverse;
+    
+}
+
+.thumbnailLeft{
+   
+    
+}
+
+.thumbnailLeft img{
+    width: 150%;
+    padding-left: 62px;
+}
+
+.parasLeft{
+    padding-left: 150px;
+    padding-right: 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.parasRight{
+    padding-left: 62px;
+    width: 350%;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 65px;
+    
+}
+
+.thumbnailRight{
+    padding-left: 10px;
+    
+}
+
+.thumbnailRight img{
+    width: 65%;
+    
+}
+
+.sectionSubTag{
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.contact{
+    background-color: aliceblue;
+    height: 70vh;
+}
+
+.text-better{
+text-align: center;
+padding-top: 25px;
+font-size: 35px;
+}
+
+.form{
+    max-width: 1200px;
+    margin: 25px auto;
+}
+
+.form-input{
+width: 100%;
+font-size: 19px;
+border: 2px solid black;
+border-radius: 6px;
+margin: 14px 0;
+padding: 5px 3px;
+
+}
+
+.btn-dark{
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 14px 0;
+    cursor: pointer;
+    
+}
+
+.text-footer{
+    text-align: center;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    padding-bottom: 25px;
+    /* background-color: black;
+    color: white; */
+
+}
+
+.bg{
+    /* position: fixed; */
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+.line{
+    width: 33px;
+    background-color: black;
+    border-radius: 50px;
+    height: 4px;
+    margin: 4px 3px;
+}
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+   .navRight{
+        text-align: center;
+        margin: auto;
+   }
+   #search{
+    width: 100%;
+   }
+   .btn-sm{
+    margin: 10px 60px;
+   }
+   .burger{
+    display: block;
+   }
+}
+
 
 
 .welcome{
@@ -196,24 +442,9 @@ header{
 
 
 
-.watch{
-    margin: 20px 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 50px;
-    color: white;
-    background-color: black;
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    border: 2px solid black;
 
 
-}
 
-.watch:hover{
-background-color: white;
-color: black;
-}
 
 .img3{
     padding: 50px 5px;
