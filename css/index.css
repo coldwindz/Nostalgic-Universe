@@ -182,7 +182,32 @@ header{
     /* color: white;
     background-color: black; */
     cursor: pointer;
+    /* text-decoration: underline; */
 }
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #0f0f10;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0f0f10;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
 
 .SignUp{
     border: 2px solid black;
@@ -190,6 +215,7 @@ header{
     padding: 5px 15px;
     color: white;
     background-color: black;
+    transition: 0.2s ease-out;
 }
 
 .SignUp:hover{
@@ -392,29 +418,34 @@ padding: 5px 3px;
 @media only screen and (max-width: 1140px){
     .nav-list{
         flex-direction: column;
+        
     }
     .navbar{
         flex-direction: column;
         transition: all 0.7s ease-out;
         height: 447px;
         flex-direction: column-reverse;
+        
+        
     }
    .navRight{
         text-align: center;
-        margin: auto;
+        margin: 0 20px;
+        width: 70%;
+        
    }
    #search{
-    width: 40%;
+    width: 50%;
    }
    .btn-sm{
     /* margin: 10px 60px; */
    }
    .burger{
-    margin-top: 5px;
+    /* margin-top: 5px; */
     display: block;
    }
    .h-nav-resp{
-    height: 72px;
+    height: 60px;
    }
    .v-class-resp{
     opacity: 0;
