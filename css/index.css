@@ -429,6 +429,15 @@ padding: 5px 3px;
    .secondHalf{
     display: none;
    }
+   .firstHalf > h1{
+    font-size: 38px;
+   }
+   .firstHalf > p{
+    font-size: 18px;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-weight: 400;
+    }
 }
 
 
