@@ -135,12 +135,12 @@ header{
 }
 
 .firstHalf > h1{
-    font-size: 45px;
+    font-size: 46px;
     z-index: 1;
 }
 
 .firstHalf > p{
-    font-size: 18px;
+    font-size: 19px;
     padding-top: 10px;
     margin-top: 10px;
     font-weight: 400;
@@ -149,6 +149,7 @@ header{
 
 .secondHalf{
     width: 30%;
+    display: none;
 }
 
 .secondHalf.img{
@@ -362,9 +363,9 @@ padding: 5px 3px;
     justify-content: center;
     vertical-align: middle;
     padding-bottom: 25px;
-    background-color: rgb(241, 236, 236);
-    font-weight: 500;
-    /* color: white; */
+    background-color: #ededee;
+    font-weight: 300;
+    color: #a0a2a5;
 
 }
 
