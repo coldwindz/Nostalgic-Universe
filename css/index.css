@@ -31,9 +31,10 @@ header{
     position: sticky;
     top: 0;
     cursor: pointer;
-    /* background-color: white; */
+    background-color: white;
     background-color: RGB 245, 254, 253;
     padding: 0 15px;
+    
 }
 
 .logo{
@@ -331,7 +332,7 @@ font-size: 35px;
 }
 
 .form{
-    max-width: 1200px;
+    max-width: 62%;
     margin: 25px auto;
 }
 
@@ -361,8 +362,9 @@ padding: 5px 3px;
     justify-content: center;
     vertical-align: middle;
     padding-bottom: 25px;
-    /* background-color: black;
-    color: white; */
+    background-color: rgb(241, 236, 236);
+    font-weight: 500;
+    /* color: white; */
 
 }
 
@@ -392,19 +394,39 @@ padding: 5px 3px;
     }
     .navbar{
         flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 447px;
+        flex-direction: column-reverse;
     }
    .navRight{
         text-align: center;
         margin: auto;
    }
    #search{
-    width: 100%;
+    width: 40%;
    }
    .btn-sm{
-    margin: 10px 60px;
+    /* margin: 10px 60px; */
    }
    .burger{
+    margin-top: 5px;
     display: block;
+   }
+   .h-nav-resp{
+    height: 72px;
+   }
+   .v-class-resp{
+    opacity: 0;
+   }
+   .logo{
+    display: none;
+   }
+   .box-main{
+    flex-direction: column-reverse;
+    max-width: 100%;
+   }
+   .secondHalf{
+    display: none;
    }
 }
 
