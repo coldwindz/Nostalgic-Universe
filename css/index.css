@@ -136,7 +136,7 @@ header{
 
 .firstHalf > h1{
     font-size: 46px;
-    z-index: 1;
+    /* z-index: 1; */
 }
 
 .firstHalf > p{
@@ -410,11 +410,15 @@ padding: 5px 3px;
 }
 .line{
     width: 33px;
-    background-color: black;
+    background-color: #0f0f10;
     border-radius: 50px;
     height: 4px;
     margin: 4px 3px;
 }
+.logo-resp{
+    display: none;
+}
+
 @media only screen and (max-width: 1140px){
     .nav-list{
         flex-direction: column;
@@ -452,6 +456,23 @@ padding: 5px 3px;
    .logo{
     display: none;
    }
+   .logo-resp{
+    display: flex;
+    position: fixed;
+    /* height: 7px; */
+    top: 0;
+    margin-left: 12px;
+    padding-top: 14px;
+   }
+   .logo-resp img{
+    width: 8%;
+   }
+   .logo-resp h1{
+    padding-left: 15px;
+    color: #0f0f10;
+    /* font-weight: 700; */
+   }
+
    .box-main{
     flex-direction: column-reverse;
     max-width: 100%;
