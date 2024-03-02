@@ -426,7 +426,6 @@ padding: 5px 3px;
         height: 447px;
         flex-direction: column-reverse;
         
-        
     }
    .navRight{
         text-align: center;
@@ -461,7 +460,7 @@ padding: 5px 3px;
     display: none;
    }
    .firstHalf > h1{
-    font-size: 34px;
+    font-size: 32px;
    }
    .firstHalf > p{
     font-size: 16px;
@@ -469,12 +468,20 @@ padding: 5px 3px;
     margin-top: 10px;
     font-weight: 450;
     }
+    .discuss{
+        display: none;
+    }
+    .section{
+        flex-direction: column-reverse;
+        display: none;
+    }
     .form{
         max-width: 75%;
     }
     .text-footer{
         font-size: 14px;
     }
+
 }
 
 
