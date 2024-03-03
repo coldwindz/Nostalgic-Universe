@@ -405,104 +405,22 @@ padding: 5px 3px;
     display: none;
     position: absolute;
     cursor: pointer;
-    right: 5%;
+    right: 4%;
     top: 15px;
 }
 .line{
-    width: 33px;
+    width: 18px;
     background-color: #0f0f10;
     border-radius: 50px;
-    height: 4px;
-    margin: 4px 3px;
+    height: 2px;
+    margin: 6px 2px;
 }
 .logo-resp{
     display: none;
 }
 
-@media only screen and (max-width: 1140px){
-    .nav-list{
-        flex-direction: column;
-        
-    }
-    .navbar{
-        flex-direction: column;
-        transition: all 0.7s ease-out;
-        height: 447px;
-        flex-direction: column-reverse;
-        
-    }
-   .navRight{
-        text-align: center;
-        /* margin: 0 20px; */
-        width: 80%;
-        
-   }
-   #search{
-    width: 50%;
-   }
-   .btn-sm{
-    /* margin: 10px 60px; */
-   }
-   .burger{
-    /* margin-top: 5px; */
-    display: block;
-   }
-   .h-nav-resp{
-    height: 60px;
-   }
-   .v-class-resp{
-    opacity: 0;
-   }
-   .logo{
+.learn{
     display: none;
-   }
-   .logo-resp{
-    display: flex;
-    position: fixed;
-    /* height: 7px; */
-    top: 0;
-    margin-left: 12px;
-    padding-top: 14px;
-   }
-   .logo-resp img{
-    width: 8%;
-   }
-   .logo-resp h1{
-    padding-left: 15px;
-    color: #0f0f10;
-    /* font-weight: 700; */
-   }
-
-   .box-main{
-    flex-direction: column-reverse;
-    max-width: 100%;
-   }
-   .secondHalf{
-    display: none;
-   }
-   .firstHalf > h1{
-    font-size: 32px;
-   }
-   .firstHalf > p{
-    font-size: 16px;
-    padding-top: 10px;
-    margin-top: 10px;
-    font-weight: 450;
-    }
-    .discuss{
-        display: none;
-    }
-    .section{
-        flex-direction: column-reverse;
-        display: none;
-    }
-    .form{
-        max-width: 75%;
-    }
-    .text-footer{
-        font-size: 14px;
-    }
-
 }
 
 
