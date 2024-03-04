@@ -3,14 +3,24 @@ navbar = document.querySelector('.navbar')
 navList = document.querySelector('.nav-list')
 navRight = document.querySelector('.navRight')
 navlogo = document.querySelector('.logo-resp')
+// clickburger = document.querySelector('.clickburger')
 
 burger.addEventListener('click', ()=>{
     navRight.classList.toggle('v-class-resp');
     navList.classList.toggle('v-class-resp');
     navbar.classList.toggle('h-nav-resp');
     navlogo.classList.toggle('v-class-resp');
-
+    // clickburger.classList.toggle('v-class-resp');
+    
 })
+
+    let hamMenu = document.querySelector(".ham");
+
+    hamMenu.addEventListener("click", ()=>{
+        hamMenu.classList.toggle("active");
+    })
+
+
 
 // navToggle = document.querySelector('.nav-toggle')
 // bars = document.querySelector('.bar')

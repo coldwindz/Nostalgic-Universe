@@ -56,6 +56,86 @@
     width: 28px;
    } */
 
+   /* .input[type="checkbox"]{
+    /* -webkit-appearance: none;
+    visibility: hidden; */
+    /* display: none;
+   } */ 
+   /* .bar{
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+   } */
+   /* input[type="checkbox"]{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 4%;
+    top: 15px;
+   }
+   input[type="checkbox"]:checked ~ .bar .top{
+    transform: rotate(-45deg);
+    transform-origin: right;
+    transition: 0.3s ease;
+   }
+   input[type="checkbox"]:checked ~ .bar .bottom{
+    transform: rotate(45deg);
+    transform-origin: right;
+    transition: 0.3s ease;
+   } */
+   /* .clickburger .line1{
+    transform: rotate(-45deg);
+   }
+   .clickburger .line2{
+    transform: rotate(45deg);
+   } */
+
+   .ham{
+    /* height: 40px; */
+    /* width: 40px; */
+    /* background-color: #6c6cc6; */
+     position: fixed;
+    /* cursor: pointer;
+    right: 2px;
+    top: 15px;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center; */ 
+   }
+   .ham .burger{
+    /* height: 18px; */
+    position: fixed;
+    /* background-color: red; */
+    /* width: 18px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+   }
+   .burger .line{
+    transition: all 0.4s linear;
+   }
+   .ham.active .burger{
+    top: 25px;
+    
+   }
+   .ham.active .line{
+    margin: 0;
+   }
+   .ham.active .line.top{
+        top: 50%;
+        transform: translateY(50%) rotate(45deg);
+        /* width: 30px; */
+        
+    }
+    .ham.active .line.bottom{
+        bottom: 50%;
+        transform: translateY(-50%) rotate(-45deg);
+        /* width: 30px; */
+    }
+
+
    .h-nav-resp{
     height: 50px;
    }
