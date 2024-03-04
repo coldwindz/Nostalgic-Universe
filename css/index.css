@@ -426,7 +426,9 @@ padding: 5px 3px;
 .learn{
     display: none;
 }
-
+.overlay{
+    display: none;
+}
 
 
 .welcome{
