@@ -4,10 +4,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 body{
     font-family: "Inter", sans-serif;
     font-weight: 600;
+    
 }
 html{
     scroll-behavior: smooth;
@@ -410,7 +412,7 @@ padding: 5px 3px;
 }
 .line{
     width: 18px;
-    background-color: #0f0f10;
+    background-color: #ededee;
     border-radius: 50px;
     height: 2px;
     margin: 6px 2px;

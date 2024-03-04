@@ -4,6 +4,7 @@
         
     }
     .navbar{
+        display: none;
         flex-direction: column;
         transition: all 0.7s ease-out;
         height: 447px;
@@ -34,13 +35,13 @@
     /* width: 40px; */
     /* background-color: #6c6cc6; */
      position: fixed;
-    /* cursor: pointer;
-    right: 2px;
+     cursor: pointer;
+    /* right: 2px;
     top: 15px;
     transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
-    align-items: center; */ 
+    align-items: center; */  
    }
    .ham .burger{
     /* height: 18px; */
@@ -52,7 +53,7 @@
     align-items: center; */
    }
    .burger .line{
-    transition: all 0.4s linear;
+    transition: all 0.2s linear;
    }
    .ham.active .burger{
     top: 25px;
@@ -73,9 +74,28 @@
         /* width: 30px; */
     }
 
+    #pyo{position: relative}
+    .pehlaNasha{
+        top: 0;
+        height: 52px;
+        background-color: #0f0f10;
+        position: sticky;
+        z-index: 1;
+    }
+    /* .tumseHi{
+        z-index: 2;
+        position: static;
+        height: 200px;
+        background-color: #0f0f10;
+        top: 0;
+    } */
+   
+    
+
+    
 
    .h-nav-resp{
-    height: 50px;
+    height: 40px;
    }
    .v-class-resp{
     opacity: 0;
@@ -89,20 +109,21 @@
     /* height: 7px; */
     top: 0;
     /* margin-left: 12px; */
-    padding: 13px 0;
-    left: 3.5%;
+    padding: 14px 0;
+    left: 4%;
    }
    .logo-resp img{
+    display: none;
     width: 5%;
-    height: 26px;
+    height: 5%;
     padding: 1px 0;
     
    }
    .logo-resp h1{
     font-size: 20px;
-    padding-left: 10px;
-    color: #0f0f10;
-    font-weight: 600;
+    /* padding-left: 10px; */
+    color: #ededee;
+    font-weight: 650;
     
    }
    .firstSection{
