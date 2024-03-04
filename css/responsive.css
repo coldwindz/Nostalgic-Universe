@@ -27,69 +27,7 @@
     display: block;
    }
 
-   /* .nav-toggle{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 22px;
-    width: 22px;
-   }
-   .nav-toggle .bar{
-    height: 3px;
-    width: 100%;
-    background-color: #0f0f10;
-    transition: all 100ms ease-in-out;
-   }
-   .nav-toggle:hover{
-    cursor: pointer;
-   }
-   .x:nth-of-type(1){
-    transition: all 100ms ease-in-out;
-    transform: rotate(45deg);
-    transform-origin: top left;
-    width: 28px;
-   }
-   .x:nth-of-type(2){
-    transition: all 100ms ease-in-out;
-    transform: rotate(-45deg);
-    transform-origin: bottom left;
-    width: 28px;
-   } */
-
-   /* .input[type="checkbox"]{
-    /* -webkit-appearance: none;
-    visibility: hidden; */
-    /* display: none;
-   } */ 
-   /* .bar{
-    position: relative;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-   } */
-   /* input[type="checkbox"]{
-    display: none;
-    position: absolute;
-    cursor: pointer;
-    right: 4%;
-    top: 15px;
-   }
-   input[type="checkbox"]:checked ~ .bar .top{
-    transform: rotate(-45deg);
-    transform-origin: right;
-    transition: 0.3s ease;
-   }
-   input[type="checkbox"]:checked ~ .bar .bottom{
-    transform: rotate(45deg);
-    transform-origin: right;
-    transition: 0.3s ease;
-   } */
-   /* .clickburger .line1{
-    transform: rotate(-45deg);
-   }
-   .clickburger .line2{
-    transform: rotate(45deg);
-   } */
+   
 
    .ham{
     /* height: 40px; */
