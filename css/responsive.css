@@ -118,14 +118,39 @@
         transition: 0.5s;
     }
     .overlay .closebtn {
-        position: fixed;
+        position: relative;
         top: 2px;
         right: 3.5%;
         font-size: 38px;
-        /* z-index: 3; */
     }
-
-
+    .overlay-content{
+        display: block;
+        position: relative;
+        top: 4%;
+        width: 100%;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 45px;
+        transition: 0.5s;
+    }
+    .overlay-content a{
+        padding: 8px;
+        text-decoration: none;
+        font-size: 30px;
+        color: #ededee;
+        display: block;
+        transition: 0.3s;
+    }
+    /* .h-overlay-content{
+        position: fixed;
+        
+        top: 4%;
+        width: 100%;
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 45px;
+        transition: 0.5s;
+    } */
     
 
    .h-nav-resp{

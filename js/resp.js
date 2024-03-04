@@ -26,6 +26,18 @@ burger.addEventListener('click', ()=>{
         open.classList.toggle('overlay');
         open.classList.toggle('h-overlay');
     }
+
+    // let close = document.querySelector('.contact');
+    // function kuchToofani() {
+    //     document.getElementById("myNav").style.height = "0%";
+        
+    // }
+     // let content = document.querySelector('.overlay-content');
+
+   // content.classList.toggle('overlay-content');
+        // content.classList.toggle('h-overlay-content');
+        
+   
     
 
     // function openNav() {

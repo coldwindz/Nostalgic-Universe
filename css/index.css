@@ -427,6 +427,9 @@ padding: 5px 3px;
     display: none;
 }
 .overlay{
+    /* display: none; */
+}
+.overlay-content{
     display: none;
 }
 
