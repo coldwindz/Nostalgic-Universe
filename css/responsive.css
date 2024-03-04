@@ -42,6 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center; */  
+    z-index: 2;
    }
    .ham .burger{
     /* height: 18px; */
@@ -51,27 +52,32 @@
     /* display: flex;
     justify-content: center;
     align-items: center; */
+    z-index: 2;
    }
    .burger .line{
     transition: all 0.2s linear;
+    z-index: 2;
    }
    .ham.active .burger{
     top: 25px;
-    
+    z-index: 2;
+    position: fixed;
    }
    .ham.active .line{
     margin: 0;
+    z-index: 2;
    }
    .ham.active .line.top{
         top: 50%;
         transform: translateY(50%) rotate(45deg);
         /* width: 30px; */
-        
+        z-index: 2;
     }
     .ham.active .line.bottom{
         bottom: 50%;
         transform: translateY(-50%) rotate(-45deg);
         /* width: 30px; */
+        z-index: 2;
     }
 
     #pyo{position: relative}
@@ -80,7 +86,7 @@
         height: 52px;
         background-color: #0f0f10;
         position: sticky;
-        z-index: 1;
+        z-index: 2;
     }
     /* .tumseHi{
         z-index: 2;
@@ -89,8 +95,36 @@
         background-color: #0f0f10;
         top: 0;
     } */
-   
-    
+   .h-overlay{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #0f0f10;
+    overflow-x: hidden;
+    transition: 0.5s;
+   }
+    .overlay{
+        height: 0%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        background-color: #0f0f10;
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+    .overlay .closebtn {
+        position: fixed;
+        top: 2px;
+        right: 3.5%;
+        font-size: 38px;
+        /* z-index: 3; */
+    }
+
 
     
 

@@ -409,6 +409,7 @@ padding: 5px 3px;
     cursor: pointer;
     right: 4%;
     top: 15px;
+    z-index: 2;
 }
 .line{
     width: 18px;
@@ -416,6 +417,7 @@ padding: 5px 3px;
     border-radius: 50px;
     height: 2px;
     margin: 6px 2px;
+    z-index: 2;
 }
 .logo-resp{
     display: none;
