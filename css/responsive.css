@@ -136,7 +136,7 @@
     .overlay-content a{
         padding: 8px;
         text-decoration: none;
-        font-size: 24px;
+        font-size: 26px;
         color: #ededee;
         display: block;
         transition: 0.3s;
@@ -265,6 +265,24 @@
         flex-direction: column-reverse;
         display: none;
     }
+
+    .d-icon{
+        font-size: 90px;
+        padding: 15px;
+        padding-top: 40px;
+    }
+    .d-text{
+        font-size: 42px;
+        text-align: center;
+    }
+    .d-button-in{
+        font-size: 16px;
+    }
+    .d-button{
+        padding: 30px;
+        padding-bottom: 40px;
+    }
+
     .form{
         max-width: 75%;
     }
