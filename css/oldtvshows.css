@@ -100,7 +100,7 @@
         text-align: center;
         font-size: 16px;
         font-weight: 450;
-        padding: 0 14%;
+        padding: 0 12%;
         padding-bottom: 20px;
     }
     .doremon button{
@@ -115,7 +115,7 @@
     }
     .doremon img{
         width: 50%;
-        height: 250px;
+        height: 230px;
     }
 
     .ben10{
@@ -159,7 +159,7 @@
     }
     .ben10 img{
         width: 50%;
-        height: 250px;
+        height: 230px;
     }
 
 }
