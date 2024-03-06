@@ -275,7 +275,7 @@
     .tv h1{
         color: #ededee;
         text-align: center;
-        font-size: 36px;
+        font-size: 32px;
         font-weight: 600;
         padding-top: 40px;
         padding-bottom: 6px;
@@ -285,7 +285,7 @@
     .tv p{
         color: #ededee;
         text-align: center;
-        font-size: 24px;
+        font-size: 20px;
         font-weight: 450;
         padding: 0 10%;
     }
@@ -300,12 +300,12 @@
         background-color: #ededee;
         color: #0f0f10;
         font-weight: 440;
-        font-size: 18px;
+        font-size: 14px;
         cursor: pointer;
     }
     .tv img{
         width: 100%;
-        padding: 0 10%;
+        padding: 0 20%;
     }
 
     .d-icon{
@@ -333,8 +333,8 @@
     .text-footer{
         font-size: 14px;
     }
-    /* .foot{
+    .foot{
         bottom: 0;
-    } */
+    }
 
 }
