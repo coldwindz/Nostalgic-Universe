@@ -102,8 +102,10 @@ header{
 #search{
     padding: 5px;
     font-size: 17px;
-    border: 2px solid black;
+    border: 2px solid #ededee;
     border-radius: 20px; 
+    background-color: #0f0f10;
+    color: #ededee;
 }
 
 .background{
@@ -394,6 +396,8 @@ padding: 5px 3px;
     
 }
 
+
+
 .text-footer{
     text-align: center;
     padding-top: 25px;
@@ -404,7 +408,7 @@ padding: 5px 3px;
     background-color: #ededee;
     font-weight: 300;
     color: #a0a2a5;
-
+    
 }
 
 .bg{
@@ -451,7 +455,7 @@ padding: 5px 3px;
     text-align: center;
     font-size: 48px;
     font-weight: 600;
-    padding-top: 40px;
+    padding-top: 80px;
     padding-bottom: 6px;
     padding-left: 10%;
     padding-right: 10%;

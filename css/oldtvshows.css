@@ -1,0 +1,81 @@
+.ben10{
+    text-align: center;
+    height: 810px;
+}
+.ben10 h1{
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 6px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.ben10 p{
+    font-size: 36px;
+    font-weight: 450;
+    padding: 0 10%;
+    padding-bottom: 24px;
+}
+.ben10 button{
+    padding: 8px 20px;
+    border: 2px solid #0f0f10;
+    border-radius: 50px;
+    background-color: #0f0f10;
+    color: #ededee;
+    font-weight: 440;
+    font-size: 22px;
+    cursor: pointer;
+}
+.ben10-img{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+.ben10 img{
+    height: 450px;
+}
+.doremon{
+    text-align: center;
+    height: 810px;
+    background-color: #0f0f10;
+}
+.doremon h1{
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 6px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #ededee;
+}
+.doremon p{
+    font-size: 36px;
+    font-weight: 450;
+    padding: 0 27%;
+    padding-bottom: 24px;
+    color: #ededee;
+
+}
+.doremon button{
+    padding: 8px 20px;
+    border: 2px solid #ededee;
+    border-radius: 50px;
+    background-color: #ededee;
+    color: #0f0f10;
+    font-weight: 440;
+    font-size: 22px;
+    cursor: pointer;
+}
+.doremon img{
+    height: 450px;
+}
+.doremon-img{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}

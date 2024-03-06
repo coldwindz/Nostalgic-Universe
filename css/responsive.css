@@ -316,7 +316,7 @@
         text-align: center;
         font-size: 32px;
         font-weight: 600;
-        padding-top: 38%;
+        padding-top: 37%;
         padding-bottom: 6px;
         padding-left: 10%;
         padding-right: 10%;
@@ -325,7 +325,7 @@
         color: #ededee;
         text-align: center;
         font-size: 20px;
-        font-weight: 450;
+        font-weight: 440;
         padding: 0 10%;
         padding-bottom: 16px;
     }
@@ -361,10 +361,13 @@
 
     .form{
         max-width: 75%;
+        
     }
     .btn-dark{
         font-size: 16px;
+        text-align: center;
     }
+    
     .text-footer{
         font-size: 14px;
     }
