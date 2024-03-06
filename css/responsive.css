@@ -277,7 +277,7 @@
         text-align: center;
         font-size: 32px;
         font-weight: 600;
-        padding-top: 40px;
+        padding-top: 30px;
         padding-bottom: 6px;
         padding-left: 10%;
         padding-right: 10%;
@@ -305,7 +305,7 @@
     }
     .tv img{
         width: 100%;
-        padding: 0 20%;
+        padding: 0 18%;
     }
 
     .d-icon{
