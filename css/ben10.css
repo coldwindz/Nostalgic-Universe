@@ -1,5 +1,6 @@
 .alien{
     height: 800px;
+    background-color: #0f0f10;
 }
 .alien h1{
     text-align: center;
@@ -9,9 +10,36 @@
     padding-bottom: 6px;
     padding-left: 10%;
     padding-right: 10%;
+    color: #ededee;
 }
 .alien iframe{
     width: 100%;
+}
+
+.vpn p{
+    text-align: center;
+    padding: 20px;
+    font-size: 26px;
+    padding-bottom: 14px;
+}
+.ins-vpn{
+    color: #0f0f10;
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.vpn-btn{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.i-sm{
+    color: #0f0f10;
+    background-color: #0f0f10;
 }
 
 @media only screen and (max-width: 1140px){
@@ -30,6 +58,31 @@
     height: 452px;
     padding-top: 30px;
     
+}
+.vpn p{
+    text-align: center;
+    padding: 20px 22%;
+    font-size: 16px;
+    padding-bottom: 8px;
+    font-weight: 500;
+}
+.ins-vpn{
+    color: #0f0f10;
+    background: none;
+    border: none;
+    font-size: 14px;
+    font-weight: 420;
+    cursor: pointer;
+}
+.vpn-btn{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+.vpn button:hover{
+    text-decoration: underline;
 }
 
 
