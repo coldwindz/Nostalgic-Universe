@@ -300,12 +300,44 @@
         background-color: #ededee;
         color: #0f0f10;
         font-weight: 440;
-        font-size: 14px;
+        font-size: 16px;
         cursor: pointer;
     }
     .tv img{
         width: 100%;
-        padding: 0 18%;
+        padding: 0 16%;
+    }
+
+    .anime{
+        height: 492px;
+    }
+    .anime h1{
+        color: #ededee;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 600;
+        padding-top: 36%;
+        padding-bottom: 6px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .anime p{
+        color: #ededee;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 450;
+        padding: 0 10%;
+        padding-bottom: 16px;
+    }
+    .btn-new{
+        padding: 8px 20px;
+        border: 2px solid #0f0f10;
+        border-radius: 50px;
+        background-color: #ededee;
+        color: #0f0f10;
+        font-weight: 440;
+        font-size: 16px;
+        cursor: pointer;
     }
 
     .d-icon{

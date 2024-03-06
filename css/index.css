@@ -473,6 +473,47 @@ padding: 5px 3px;
     padding: 0 34%;
 }
 
+.bg-anime{
+    background: rgba(0, 0, 0, 0.6) url('../img/makoto-shinkai-fantasy-romance-anime-movies.avif');
+    
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.anime{
+    height: 800px;
+}
+.anime h1{
+    text-align: center;
+    padding-top: 30%;
+    color: #ededee;
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 2px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.anime p{
+    text-align: center;
+    color: #ededee;
+    font-size: 36px;
+    font-weight: 450;
+    padding: 0 10%;
+    padding-bottom: 22px;
+}
+.anime{
+    text-align: center;
+}
+
+.btn-new{
+    padding: 8px 20px;
+    border: 2px solid #ededee;
+    border-radius: 50px;
+    background-color: #ededee;
+    color: #0f0f10;
+    font-weight: 440;
+    font-size: 20px;
+    cursor: pointer;
+}
 
 .d-icon{
 text-align: center;
