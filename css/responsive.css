@@ -168,17 +168,20 @@
     /* height: 7px; */
     top: 0;
     /* margin-left: 12px; */
-    padding: 14px 0;
+    
     left: 4%;
    }
    .logo-resp img{
-    display: none;
-    width: 5%;
-    height: 5%;
-    padding: 1px 0;
+   
+    width: 9%;
+    height: 9%;
+    padding: 8px 0;
+    
     
    }
    .logo-resp h1{
+    margin-left: 5px;
+    padding: 14px 0;
     font-size: 20px;
     /* padding-left: 10px; */
     color: #ededee;
@@ -264,6 +267,45 @@
     .section{
         flex-direction: column-reverse;
         display: none;
+    }
+
+    .tv{
+        background-color: #0f0f10;
+    }
+    .tv h1{
+        color: #ededee;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 600;
+        padding-top: 40px;
+        padding-bottom: 6px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .tv p{
+        color: #ededee;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 450;
+        padding: 0 10%;
+    }
+    .tv-btn{
+        text-align: center;
+        padding-top: 20px;
+    }
+    .tv button{
+        padding: 8px 20px;
+        border: 2px solid #0f0f10;
+        border-radius: 50px;
+        background-color: #ededee;
+        color: #0f0f10;
+        font-weight: 440;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .tv img{
+        width: 100%;
+        padding: 0 10%;
     }
 
     .d-icon{
