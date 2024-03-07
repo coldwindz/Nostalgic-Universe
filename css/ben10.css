@@ -65,8 +65,8 @@
 }
 .vpn p{
     text-align: center;
-    padding: 20px 18%;
-    font-size: 16px;
+    padding: 20px 16%;
+    font-size: 18px;
     padding-bottom: 8px;
     font-weight: 500;
 }
@@ -74,7 +74,7 @@
     color: #0f0f10;
     background: none;
     border: none;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 420;
     cursor: pointer;
 }
