@@ -34,9 +34,19 @@
 .alien-content li{
     color: #ededee;
     font-size: 28px;
-    padding-bottom: 20px;
+    padding-bottom: 12px;
+    padding-top: 12px;
     font-weight: 550;
     cursor: pointer;
+    text-decoration: none;
+}
+.alien-content h3{
+    text-decoration: none;
+    color: #ededee;
+    
+}
+.alien-content a{
+    text-decoration: none;
 }
 .alien-content h3:hover{
     color: aquamarine;

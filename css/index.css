@@ -589,6 +589,9 @@ font-size: 60px;
     bottom: 10px;
     border-radius: 50px;
 }
+.logo-resp a{
+    text-decoration: none;
+}
 
 
 
