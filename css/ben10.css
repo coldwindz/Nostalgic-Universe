@@ -22,8 +22,26 @@
     width: 28%;
     padding-bottom: 20px;
 }
+.alien-content{
+    text-align: center;
+}
+.alien-content h2{
+    color: #ededee;
+    padding-bottom: 20px;
+    font-size: 38px;
+    font-weight: 450;
+}
+.alien-content li{
+    color: #ededee;
+    font-size: 28px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.alien-content h3:hover{
+    color: aquamarine;
+}
 .alien iframe{
-    width: 100%;
+    width: 40%;
 }
 
 .vpn p{
@@ -73,13 +91,25 @@
 }
 .alien iframe{
     width: 100%;
-    height: 452px;
+    height: 300px;
     padding-top: 30px;
     padding-bottom: 20px;
     
 }
 .alien-content{
     padding-bottom: 20px;
+}
+.alien-content h2{
+    color: #ededee;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+.alien-content li{
+    color: #ededee;
+    font-size: 18px;
+    padding-bottom: 20px;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 .vpn p{
     text-align: center;
