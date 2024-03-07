@@ -1,6 +1,8 @@
 .alien{
-    height: 800px;
+    /* height: 800px; */
     background-color: #0f0f10;
+    justify-content: center;
+    align-items: center;
 }
 .alien h1{
     text-align: center;
@@ -12,8 +14,12 @@
     padding-right: 10%;
     color: #ededee;
 }
+.alien-force-img{
+    text-align: center;
+}
 .alien img{
-    width: 100%;
+    text-align: center;
+    width: 28%;
     padding-bottom: 20px;
 }
 .alien iframe{
@@ -40,6 +46,9 @@
     align-items: center;
     cursor: pointer;
     padding-bottom: 20px;
+}
+.vpn button:hover{
+    text-decoration: underline;
 }
 .i-sm{
     color: #0f0f10;
