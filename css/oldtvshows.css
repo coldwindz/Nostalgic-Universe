@@ -98,7 +98,7 @@
     .doremon p{
         color: #ededee;
         text-align: center;
-        font-size: 16px;
+        font-size: 14px;
         font-weight: 450;
         padding: 0 8%;
         padding-bottom: 20px;
@@ -114,8 +114,8 @@
         cursor: pointer;
     }
     .doremon img{
-        width: 50%;
-        height: 210px;
+        width: 54%;
+        height: 200px;
     }
 
     .ben10{
@@ -158,8 +158,8 @@
         
     }
     .ben10 img{
-        width: 50%;
-        height: 210px;
+        width: 54%;
+        height: 200px;
     }
 
 }
