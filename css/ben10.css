@@ -65,7 +65,7 @@
 }
 .vpn p{
     text-align: center;
-    padding: 20px 16%;
+    padding: 20px 14%;
     font-size: 18px;
     padding-bottom: 8px;
     font-weight: 500;
@@ -87,6 +87,9 @@
 }
 .vpn button:hover{
     text-decoration: underline;
+}
+.foot{
+    bottom: 0;
 }
 
 
