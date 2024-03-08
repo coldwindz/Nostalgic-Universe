@@ -473,13 +473,18 @@ padding: 5px 3px;
 }
 .tv button{
     padding: 8px 20px;
-    border: 2px solid #0f0f10;
+    border: 2px solid #ededee;
     border-radius: 50px;
     background-color: #ededee;
     color: #0f0f10;
     font-weight: 440;
     font-size: 22px;
     cursor: pointer;
+}
+.tv button:hover{
+    background-color: #0f0f10;
+    color: #ededee;
+    border: 2px solid #ededee;
 }
 .tv img{
     width: 100%;
@@ -554,7 +559,7 @@ font-size: 60px;
     cursor: pointer;
 }
 .d-button-in:hover{
-    transition: 0.2s;
+    /* transition: 0.1s; */
     color: #0f0f10;
     background-color: white;
 }
