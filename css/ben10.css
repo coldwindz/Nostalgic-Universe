@@ -1,3 +1,6 @@
+.vpn{
+    /* background-color: aquamarine; */
+}
 .alien{
     /* height: 800px; */
     background-color: #0f0f10;
@@ -9,7 +12,7 @@
     font-size: 48px;
     font-weight: 600;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-left: 10%;
     padding-right: 10%;
     color: #ededee;
@@ -22,8 +25,15 @@
     width: 28%;
     padding-bottom: 20px;
 }
+.alien p{
+    color: #ededee;
+    text-align: center;
+    padding-bottom: 22px;
+    font-size: 28px;
+}
 .alien-content{
     text-align: center;
+    padding-bottom: 20px;
 }
 .alien-content h2{
     color: #ededee;
@@ -43,12 +53,17 @@
 .alien-content h3{
     text-decoration: none;
     color: #ededee;
+    padding-bottom: 5px;
     
 }
 .alien-content a{
+    color: #ededee;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
 }
-.alien-content h3:hover{
+.alien-content a:hover{
     color: aquamarine;
 }
 .alien iframe{
