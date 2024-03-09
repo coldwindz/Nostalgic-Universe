@@ -61,7 +61,7 @@ header{
     width: 60%;
     height: 60%;
     align-items: center;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
 
 .nav-list{
