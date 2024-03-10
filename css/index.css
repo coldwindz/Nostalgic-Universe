@@ -79,7 +79,7 @@ header{
     text-decoration: none;
     color: #ededee;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 550;
     cursor: pointer;
 }
 
@@ -252,6 +252,7 @@ header{
 .watch:hover{
     background-color: black;
     color: white;
+    cursor: pointer;
     }
 
 .discuss{
@@ -676,7 +677,15 @@ font-size: 60px;
 .foot-page2{
     display: flex;
 }
-
+.foot-page3{
+    display: flex;
+}
+.biz{
+    margin-right: 40px;
+}
+.invest{
+    margin-right: 40px;
+}
 
 
 
