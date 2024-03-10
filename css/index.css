@@ -40,12 +40,12 @@ header{
 }
 
 .logo{
-    width: 15%;
+    width: 10%;
     display: flex;
     justify-content: center;
     /* margin-right: 10px; */
     /* margin-bottom: 20px; */
-    padding: 10px 10px;
+    padding: 5px 5px;
     align-items: center;
     
 }
@@ -79,6 +79,8 @@ header{
     text-decoration: none;
     color: #ededee;
     font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
 }
 
 .listed > a:hover {
