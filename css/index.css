@@ -609,9 +609,10 @@ font-size: 60px;
 .naam img{
     width: 6%;
     margin-right: 10px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .naam h1{
+    margin-top: 15px;
     font-size: 36px; 
     /* font-weight: 700;  */
 }
