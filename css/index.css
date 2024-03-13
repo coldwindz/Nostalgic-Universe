@@ -536,6 +536,57 @@ padding: 5px 3px;
     font-size: 20px;
     cursor: pointer;
 }
+.book{
+    display: flex;
+    height: 800px;
+    background: rgba(0, 0, 0, 0.6) url('../img/Academic-Presses.jpg');
+    
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.book-left{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.book-left img{
+    width: 72%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.book-right{
+    text-align: center;
+    width: 50%;
+}
+.book-right h1{
+    color: #ededee;
+    font-size: 48px;
+    font-weight: 600;
+    padding-top: 250px;
+    padding-bottom: 6px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.book-right p{
+    color: #ededee;
+    font-size: 36px;
+    font-weight: 450;
+    padding: 0 10%;
+    padding-bottom: 24px;
+}
+.book-right button{
+    padding: 8px 20px;
+    border: 2px solid #ededee;
+    border-radius: 50px;
+    background-color: #ededee;
+    color: #0f0f10;
+    font-weight: 440;
+    font-size: 22px;
+    cursor: pointer;
+}
 
 .d-icon{
 text-align: center;

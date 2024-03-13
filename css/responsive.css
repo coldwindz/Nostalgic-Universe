@@ -339,6 +339,54 @@
         font-size: 16px;
         cursor: pointer;
     }
+    .book{
+        display: flex;
+        flex-direction: column;
+        height: 560px;
+    }
+    .book-left{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .book-left img{
+        width: 75%;
+        padding-top: 10%;
+        padding-bottom: 4%;
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+    .book-right{
+        text-align: center;
+        width: 100%;
+    }
+    .book-right h1{
+        font-size: 32px;
+        font-weight: 600;
+        padding-top: 5px;
+        padding-bottom: 6px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .book-right p{
+        font-size: 20px;
+        font-weight: 440;
+        padding: 0 10%;
+        padding-bottom: 16px;
+    }
+    .book-right button{
+        padding: 8px 20px;
+        border: 2px solid #ededee;
+        border-radius: 50px;
+        background-color: #ededee;
+        color: #0f0f10;
+        font-weight: 440;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+
     .ben10{
         text-align: center;
         height: 500px;
