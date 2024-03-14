@@ -732,14 +732,16 @@ font-size: 60px;
     font-size: 20px;
   }
   .more{
-    height: 270px;
+    height: 800px;
     background-color: aliceblue;
     text-align: center;
+    
   }
   .more h1{
     text-align: center;
     font-size: 48px;
-    padding-top: 40px;
+    padding-top: 54px;
+    font-weight: 600;
   }
   .more p{
     text-align: center;
@@ -754,6 +756,13 @@ font-size: 60px;
     color: #ededee;
     background-color: #0f0f10;
     border-color: #0f0f10;
+  }
+  .pika{
+    padding-top: 80px;
+    
+  }
+  .more img{
+    width: 26%;
   }
 
 
