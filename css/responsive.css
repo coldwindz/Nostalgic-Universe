@@ -385,7 +385,90 @@
         font-size: 16px;
         cursor: pointer;
     }
+
+    .d-img{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    padding-top: 30px;
+}
+.d-img img{
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.investors h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 650;
+    padding: 20px;
+    padding-bottom: 30px;
+  }
+  .slider{
+    width: 440px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slides{
+    width: 500%;
+    height: 150px;
+    display: flex;
+    /* justify-content: space-between; */
+    animation: 4s cubic-bezier(1, 0.95, 0.565, 1) sliding infinite;
+}
+.slide img{
+    width: 180px;
+    /* height: 150px; */
+}
+.tank{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding-bottom: 20px;
+  }
+  .tank p{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .tank img{
+    width: 20%;
+    padding: 8px;
     
+  }
+  .more{
+    height: 225px;
+    background-color: aliceblue;
+    text-align: center;
+  }
+  .more h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    padding-top: 40px;
+  }
+  .more p{
+    text-align: center;
+    color: #0f0f10;
+    font-size: 20px;
+        font-weight: 440;
+    padding: 0 10%;
+    padding-bottom: 24px;
+    padding-top: 10px;
+  }
+  .more button{
+    color: #ededee;
+    background-color: #0f0f10;
+    border-color: #0f0f10;
+    padding: 8px 20px;
+    font-weight: 440;
+    font-size: 16px;
+    cursor: pointer;
+  }
 
     .ben10{
         text-align: center;
