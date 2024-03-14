@@ -1,0 +1,17 @@
+.ventures{
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 600;
+    font-size: 24px;
+}
+.lyric-img img{
+    width: 50%;
+    /* height: 20%; */
+    padding: 20% 0;
+}
+.guftgoo-img img{
+    width: 36%;
+    /* height: 20%; */
+    padding: 10% 0;
+    border-radius: 50%;
+}
