@@ -180,6 +180,7 @@
     
    }
    .logo-resp h1{
+    display: none;
     margin-left: 8px;
     padding: 14px 0;
     font-size: 20px;
@@ -342,7 +343,7 @@
     .book{
         display: flex;
         flex-direction: column;
-        height: 560px;
+        height: 675px;
         /* background-color: ghostwhite;
         background-blend-mode: lighten; */
     }
@@ -388,6 +389,17 @@
         font-weight: 440;
         font-size: 16px;
         cursor: pointer;
+    }
+    .book p.earlybird{
+        border: 2px solid #ededee;
+        justify-content: center;
+        text-align: center;
+        vertical-align: middle;
+        align-items: center;
+        padding: 6px 6px;
+        margin: 26px 100px;
+        margin-top: 20px;
+        font-size: 20px;
     }
 
     .d-img{
@@ -446,7 +458,7 @@
   }
   .more{
     height: 460px;
-    background-color: aliceblue;
+    background-color: #F8F8FF;
     text-align: center;
   }
   .more h1{
@@ -472,6 +484,10 @@
     font-weight: 440;
     font-size: 16px;
     cursor: pointer;
+  }
+  .more button:hover{
+    color: #0f0f10;
+    background-color: #F8F8FF;
   }
   .pika{
     padding-top: 45px;
