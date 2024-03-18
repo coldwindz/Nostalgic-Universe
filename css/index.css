@@ -420,7 +420,9 @@ padding: 5px 3px;
     margin-bottom: 0px;
     padding-bottom: 0px;
 }
-
+.icons-resp{
+    display: none;
+}
 .burger{
     display: none;
     position: absolute;

@@ -3,6 +3,7 @@ navbar = document.querySelector('.navbar')
 navList = document.querySelector('.nav-list')
 navRight = document.querySelector('.navRight')
 navlogo = document.querySelector('.logo-resp')
+navicons = document.querySelector('.icons-resp')
 // over = document.querySelector('.overlay')
 // clickburger = document.querySelector('.clickburger')
 
@@ -11,6 +12,7 @@ burger.addEventListener('click', ()=>{
     navList.classList.toggle('v-class-resp');
     navbar.classList.toggle('h-nav-resp');
     navlogo.classList.toggle('v-class-resp');
+    navicons.classList.toggle('v-class-resp');
     // clickburger.classList.toggle('v-class-resp');
     // over.classList.toggle('h-overlay');
 })
