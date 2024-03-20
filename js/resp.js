@@ -13,6 +13,7 @@ burger.addEventListener('click', ()=>{
     navbar.classList.toggle('h-nav-resp');
     navlogo.classList.toggle('v-class-resp');
     navicons.classList.toggle('v-class-resp');
+    overlay.classList.toggle('display-on');
     // clickburger.classList.toggle('v-class-resp');
     // over.classList.toggle('h-overlay');
 })
@@ -23,11 +24,70 @@ burger.addEventListener('click', ()=>{
         hamMenu.classList.toggle("active");
     })
 
+    // let hamMenu2 = document.querySelector(".ham2");
+
+    // hamMenu2.addEventListener("click", ()=>{
+    //     hamMenu2.classList.toggle("active");
+    // })
+
     let open = document.querySelector('.overlay');
     function third() {
         open.classList.toggle('overlay');
         open.classList.toggle('h-overlay');
+        
     }
+
+    // let open2 = document.querySelector('.overlay2');
+    // function search() {
+    //     open2.classList.toggle('overlay2');
+    //     open2.classList.toggle('h-overlay2');
+    //     hamMenu2.classList.toggle("active");
+    // }
+
+    let ham2 = document.querySelector(".ham2");
+
+    ham2.addEventListener("click", ()=>{
+        // navlogo.classList.toggle('v-class-resp');
+        // navicons.classList.toggle('display-on');
+        
+        ham2.classList.toggle("no-display");
+    })
+
+overlay = document.querySelector('.overlay-content')
+ham2 = document.querySelector('.ham2')
+
+    searchicon.addEventListener('click', ()=>{
+        // navlogo.classList.toggle('v-class-resp');
+        // navicons.classList.toggle('v-class-resp');
+
+        // hamMenu.classList.toggle('no-display');
+        // overlay.classList.toggle('no-display');
+        // hamMenu.classList.toggle("active");
+        // open.classList.toggle('over-the-top');
+    })
+
+    function fourth() {
+        open.classList.toggle('overlay');
+        open.classList.toggle('h-overlay');
+        ham2.classList.toggle('display-on');
+        ham2.classList.toggle("active");
+        hamMenu.classList.toggle('no-display');
+        navlogo.classList.toggle('v-class-resp');
+        navicons.classList.toggle('no-display');
+        
+        // hamMenu.classList.toggle('display-on');
+    }
+
+    // let open2 = document.querySelector('.overlay');
+    // function search() {
+    //     open2.classList.toggle('overlay');
+    //     open2.classList.toggle('h-overlay');
+    // }
+
+    // overlay = document.querySelector('.overlay-content')
+    // searchicon.addEventListener('click', ()=>{
+    //     overlay.classList.toggle('v-class-resp');
+    // })
 
     // let close = document.querySelector('.contact');
     // function kuchToofani() {
