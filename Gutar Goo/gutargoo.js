@@ -4,14 +4,14 @@ window.onload = function() {
     // Your web app's Firebase configuration
     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyB23bnhWTno9PGQuS6Gev724keuMnVSPNI",
-    authDomain: "gutar-goo.firebaseapp.com",
-    projectId: "gutar-goo",
-    storageBucket: "gutar-goo.appspot.com",
-    messagingSenderId: "476706529222",
-    appId: "1:476706529222:web:c5a6be89ac2fa666b39cc7",
-    measurementId: "G-C43ZBMK8LZ"
-  };
+  apiKey: "AIzaSyD1OXY6mPBU80h_bQNePjCRabE91313RgQ",
+  authDomain: "gutar-goo-2.firebaseapp.com",
+  projectId: "gutar-goo-2",
+  storageBucket: "gutar-goo-2.appspot.com",
+  messagingSenderId: "987722886305",
+  appId: "1:987722886305:web:a188806e5e2966b0a614e0",
+  measurementId: "G-HXLJLGZFC4"
+};
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     // This is very IMPORTANT!! We're going to use "db" a lot.
