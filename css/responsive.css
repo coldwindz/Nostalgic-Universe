@@ -417,6 +417,52 @@
         padding: 0 16%;
     }
 
+    .gutargoo{
+        height: 492px;
+        background-color: #29AB87;
+    }
+    .gutargoo h2{
+        text-align: center;
+        font-size: 180px;
+        padding-top: 40px;
+    }
+    .gutargoo h1{
+        color: #F1FFFA;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 600;
+        padding-top: 20px;
+        padding-bottom: 6px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .gutargoo p{
+        color: #F1FFFA;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 450;
+        padding: 0 2%;
+    }
+    .gutargoo-btn{
+        text-align: center;
+        padding-top: 24px;
+    }
+    .gutargoo button{
+        padding: 8px 20px;
+        border: 2px solid #F1FFFA;
+        border-radius: 50px;
+        background-color: #F1FFFA;
+        color: #464E47;
+        font-weight: 440;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    .gutargoo button:hover{
+        background-color: #29AB87;
+        color: #F1FFFA;
+        border: 2px solid #F1FFFA;
+    }
+
     .anime{
         height: 492px;
     }
