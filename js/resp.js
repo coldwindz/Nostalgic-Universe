@@ -13,7 +13,7 @@ burger.addEventListener('click', ()=>{
     navbar.classList.toggle('h-nav-resp');
     navlogo.classList.toggle('v-class-resp');
     navicons.classList.toggle('v-class-resp');
-    overlay.classList.toggle('display-on');
+    
     // clickburger.classList.toggle('v-class-resp');
     // over.classList.toggle('h-overlay');
 })
@@ -34,7 +34,7 @@ burger.addEventListener('click', ()=>{
     function third() {
         open.classList.toggle('overlay');
         open.classList.toggle('h-overlay');
-        
+        overlay1.classList.toggle('display-on');
     }
 
     // let open2 = document.querySelector('.overlay2');
@@ -53,7 +53,7 @@ burger.addEventListener('click', ()=>{
         ham2.classList.toggle("no-display");
     })
 
-overlay = document.querySelector('.overlay-content')
+overlay1 = document.querySelector('.overlay-content')
 ham2 = document.querySelector('.ham2')
 
     searchicon.addEventListener('click', ()=>{
@@ -66,6 +66,7 @@ ham2 = document.querySelector('.ham2')
         // open.classList.toggle('over-the-top');
     })
 
+    
     function fourth() {
         open.classList.toggle('overlay');
         open.classList.toggle('h-overlay');
