@@ -17,7 +17,7 @@
       #chat_logout_container{
         position: fixed;
           top: 0;
-          margin-left: 28%;
+          margin-left: 34%;
           margin-right: 2%;
           
         width: 100%;
@@ -39,7 +39,7 @@
         border-radius: 50px;
         font-size: 14px;
         font-weight: 500;
-        margin-right: 5%;
+        margin-right: 2%;
       }
       #chat_container{
         width: 100%;

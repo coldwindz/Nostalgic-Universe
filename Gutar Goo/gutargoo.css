@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Ephesis&family=Indie+Flower&family=Inter:wght@100..900&family=Lexend+Mega:wght@300&display=swap');
+
 body{
     /* https://www.color-hex.com/color/d3d3d3 */
     background-color: #fff; /*#f6f6f6, EBEBD3, fafafa*/
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     font-weight: 500;
   
     overflow: hidden;
     animation: blur 0.5s ease-out;
     
-  
+      font-family: "Inter", sans-serif;
   }
   *{
     outline: none;
@@ -90,7 +92,7 @@ body{
     font-weight: bold;
     text-align: center;
     background-color: Transparent;
-    border-bottom: 2px dashed #1D3354;
+    border-bottom: 2px solid #1D3354;
   
   }
   #join_input:focus{
@@ -129,7 +131,7 @@ body{
     margin-bottom: 20px;
     
     /* Fade in container */
-    animation: fadeIn 1s linear;
+    /* animation: fadeIn 1s linear; */
   
       /* position: sticky;
       bottom: 0; */
