@@ -443,7 +443,7 @@ padding: 5px 3px;
     display: none;
 }
 .burger2{
-    display: block;
+    display: none;
     position: absolute;
     cursor: pointer;
     right: 4%;
@@ -666,6 +666,9 @@ padding: 5px 3px;
     margin-top: 200px;
 }
 
+.community{
+    background-color: #FFFFF2;
+}
 .d-img{
     text-align: center;
     justify-content: center;
@@ -699,7 +702,7 @@ font-size: 60px;
     border: 2px solid #0f0f10;
     border-radius: 50px;
     background-color: #0f0f10;
-    color: #ededee;
+    color: #FFFFF2;
     font-weight: 440;
     font-size: 20px;
     cursor: pointer;
@@ -707,7 +710,7 @@ font-size: 60px;
 .d-button-in:hover{
     /* transition: 0.1s; */
     color: #0f0f10;
-    background-color: white;
+    background-color: #FFFFF2;
 }
 .slider-body{
     align-items: center;
@@ -809,7 +812,7 @@ font-size: 60px;
     font-size: 20px;
   }
   .more{
-    height: 800px;
+    height: 490px;
     background-color: #F8F8FF;
     text-align: center;
     
@@ -835,11 +838,11 @@ font-size: 60px;
     border-color: #0f0f10;
   }
   .pika{
-    padding-top: 80px;
+    padding-top: 50px;
     
   }
   .more img{
-    width: 26%;
+    width: 15%;
   }
 
 

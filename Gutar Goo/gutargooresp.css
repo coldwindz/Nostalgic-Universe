@@ -106,7 +106,10 @@
         padding-right: 8%;
         font-family: Varela Round;
         /* margin-top: 10%; */
-          
-          
+          box-sizing: border-box;
+          display: block;
+          position: fixed;
+          -webkit-border-horizontal-spacing: 1px;
+          -webkit-border-vertical-spacing: 0px
       }
 }

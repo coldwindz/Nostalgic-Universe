@@ -108,6 +108,7 @@
         z-index: 5;
        }
        .ham2 .burger2{
+        display: block;
         /* height: 18px; */
         position: fixed;
         /* background-color: red; */
@@ -611,7 +612,7 @@
     
   }
   .more{
-    height: 460px;
+    height: 371px;
     background-color: #F8F8FF;
     text-align: center;
   }
@@ -648,7 +649,7 @@
     
   }
   .more img{
-    width: 50%;
+    width: 42%;
   }
   .ventures h1{
     font-size: 32px;
