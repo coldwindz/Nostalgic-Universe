@@ -702,7 +702,7 @@ font-size: 60px;
     border: 2px solid #0f0f10;
     border-radius: 50px;
     background-color: #0f0f10;
-    color: #FFFFF2;
+    color: #F8F8FF;
     font-weight: 440;
     font-size: 20px;
     cursor: pointer;
@@ -710,7 +710,7 @@ font-size: 60px;
 .d-button-in:hover{
     /* transition: 0.1s; */
     color: #0f0f10;
-    background-color: #FFFFF2;
+    background-color: #F8F8FF;
 }
 .slider-body{
     align-items: center;
