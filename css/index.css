@@ -29,10 +29,10 @@ header{
     /* background-color: beige; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     position: sticky;
     top: 0;
-    cursor: pointer;
+    /* cursor: pointer; */
     background-color: #0f0f10;
     background-color: RGB 245, 254, 253;
     padding: 0 15px;
@@ -96,18 +96,24 @@ header{
 .navRight{
     /* background-color: purple; */
     text-align: right;
-    width: 50%;
+    width: 20%;
     align-items: center;
     padding: 0 15px;
+    
+    
 }
 
 #search{
-    padding: 5px;
+    /* padding: 5px;
     font-size: 17px;
     border: 2px solid #ededee;
     border-radius: 20px; 
     background-color: #0f0f10;
-    color: #ededee;
+    color: #ededee; */
+    width: 15%;
+    margin-left: 20%;
+    margin-right: 2%;
+    
 }
 
 .background{
@@ -226,6 +232,7 @@ header{
     color: #0f0f10;
     background-color: #ededee;
     transition: 0.2s ease-out;
+    
 }
 
 .SignUp:hover{
