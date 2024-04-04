@@ -112,7 +112,7 @@ header{
 
 .background{
     /* background: rgba(0, 0, 0, 0.7) url('../img/yan-ru-afternoon1.jpg'); */
-    background: rgba(0, 0, 0, 0.6) url('../img/yan-ru-afternoon1.webp');
+    background: rgba(0, 0, 0, 0.6) url('../img/yan-ru-afternoon1.jpg');
     
     background-size: cover;
     background-blend-mode: darken;
