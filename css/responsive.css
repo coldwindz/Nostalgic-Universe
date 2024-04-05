@@ -747,6 +747,7 @@
     }
     .pages li{
         font-size: 14px;
+        text-decoration: none;
     }
     .pages a{
         text-decoration: none;

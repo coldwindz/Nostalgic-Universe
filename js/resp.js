@@ -8,7 +8,7 @@ navicons = document.querySelector('.icons-resp')
 // clickburger = document.querySelector('.clickburger')
 
 burger.addEventListener('click', ()=>{
-    navRight.classList.toggle('v-class-resp');
+    // navRight.classList.toggle('v-class-resp');
     navList.classList.toggle('v-class-resp');
     navbar.classList.toggle('h-nav-resp');
     navlogo.classList.toggle('v-class-resp');
