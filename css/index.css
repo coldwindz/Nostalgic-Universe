@@ -699,6 +699,14 @@ font-size: 90px;
 text-align: center;
 font-size: 60px;
 }
+.community p{
+    
+    text-align: center;
+    font-size: 36px;
+    font-weight: 450;
+    padding: 0 10%;
+    padding-top: 6px;
+}
 .d-button{
     text-align: center;
     padding: 35px;
