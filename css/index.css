@@ -990,6 +990,7 @@ font-size: 60px;
 }
 .pages a{
     text-decoration: none;
+    color: #898a8d;
 }
 .pages li:hover{
     text-decoration: underline;
