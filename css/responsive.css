@@ -568,10 +568,10 @@
     justify-content: center;
     align-items: center;
     height: 180px;
-    padding-top: 62px;
+    padding-top: 65px;
 }
 .d-img img{
-    width: 56%;
+    width: 60%;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -696,7 +696,15 @@
         font-size: 32px;
         text-align: center;
         padding: 0 2%;
-        padding-top: 140px;
+        padding-top: 120px;
+    }
+    .community p{
+        
+        text-align: center;
+        font-size: 20px;
+        font-weight: 450;
+        padding: 0 2%;
+        padding-top: 6px;
     }
     .d-button-in{
         font-size: 16px;
