@@ -675,16 +675,17 @@ padding: 5px 3px;
 
 .community{
     background-color: #F8F8FF;
+    height: 750px;
 }
 .d-img{
     text-align: center;
     justify-content: center;
     align-items: center;
     height: 280px;
-    padding-top: 40px;
+    padding-top: 100px;
 }
 .d-img img{
-    width: 16%;
+    width: 26%;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -698,6 +699,7 @@ font-size: 90px;
 .d-text{
 text-align: center;
 font-size: 60px;
+padding-top: 200px;
 }
 .community p{
     
