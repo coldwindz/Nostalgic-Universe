@@ -711,7 +711,8 @@ padding-top: 200px;
 }
 .d-button{
     text-align: center;
-    padding: 35px;
+    padding-top: 20px;
+    /* padding: 35px; */
     padding-bottom: 60px;
 }
 .d-button-in{
