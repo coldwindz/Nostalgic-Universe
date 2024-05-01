@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Footer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Base styles for footer items */
+    .footer-item {
+        margin: 20px;
+    }
+
+    /* Responsive layout for footer */
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* Responsive styles for each footer item */
+    .footer-item {
+        width: calc(33.33% - 40px);
+        /* Adjust the width based on the number of items per row */
+    }
+
+    /* Media query for tablet-sized devices */
+    @media (max-width: 500px) {
+        .footer-item {
+            width: calc(50% - 40px);
+            /* Two items per row */
+        }
+    }
+
+    /* Media query for mobile-sized devices */
+    @media (max-width: 480px) {
+        .footer-item {
+            width: calc(100% - 40px);
+            /* Single item per row */
+        }
+    }
+</style>
+
+<body>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-item">
+                <h3>About Us</h3>
+                <p>Some information about the company.</p>
+            </div>
+            <div class="footer-item">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Service 1</a></li>
+                    <li><a href="#">Service 2</a></li>
+                    <li><a href="#">Service 3</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h3>Contact Us</h3>
+                <p>Email: info@example.com</p>
+                <p>Phone: 123-456-7890</p>
+            </div>
+            <div class="footer-item">
+                <h3>Social Media</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <div class="footer-item">
+                <h3>Newsletter</h3>
+                <p>Subscribe to our newsletter</p>
+                <input type="email" placeholder="Your email">
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

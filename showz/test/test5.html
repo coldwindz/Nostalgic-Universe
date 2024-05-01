@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Page</title>
+</head>
+
+<body>
+    <h1>Content Page</h1>
+    <div id="content">
+        <p>This is some content that can be bookmarked.</p>
+    </div>
+    <button onclick="bookmarkContent()">Bookmark This</button>
+
+    <script>
+        function bookmarkContent() {
+            // Get the content to be bookmarked
+            var content = document.getElementById('content').innerHTML;
+
+            // Create a new div to hold the bookmarked content
+            var bookmarkedContent = document.createElement('div');
+            bookmarkedContent.innerHTML = content;
+
+            // Append the bookmarked content to the bookmark page
+            // Replace 'bookmark.html' with the URL of your bookmark page
+            var bookmarkPage = window.open('test5_1.html', '_blank');
+            bookmarkPage.onload = function () {
+                bookmarkPage.document.body.appendChild(bookmarkedContent);
+            };
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper with Free Mode</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    .swiper-container {
+        width: 100%;
+        /* height: 300px; */
+        padding: 50% 0;
+        /* Set a fixed aspect ratio (e.g., 2:1) */
+        position: relative;
+    }
+
+    .swiper-slide {
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide img {
+        max-width: 100%;
+        /* Ensures image fits within slide */
+        max-height: 100%;
+        /* Ensures image fits within slide */
+        object-fit: contain;
+        /* Retains aspect ratio while fitting image inside the container */
+    }
+</style>
+
+<body>
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/Rectangle 11dor.png" alt="Image 1"></div>
+            <div class="swiper-slide"><img src="img/Rectangle 12ben.png" alt="Image 2"></div>
+            <div class="swiper-slide"><img src="image3.jpg" alt="Image 3"></div>
+            <!-- Add more swiper slides as needed -->
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <h1>kuch bhi</h1>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 4,
+            centeredSlides: false,
+            spaceBetween: 30,
+            loop: false,
+            freeMode: true, // Enables free mode
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+
+    </script>
+</body>
+
+</html>

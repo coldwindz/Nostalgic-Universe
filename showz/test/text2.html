@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper with Free Mode</title>
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<style>
+    .swiper-container {
+        width: 100%;
+        height: auto;
+        /* Set height to auto to allow resizing based on content */
+    }
+
+    .swiper-slide {
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+        /* text-align: left; */
+    }
+
+    .swiper-slide img {
+        cursor: pointer;
+        max-width: 50vw;
+        max-height: 50vh;
+        width: auto;
+        height: auto;
+        object-fit: contain;
+
+    }
+</style>
+
+<body>
+    <div style="height: auto; width: 100%; overflow: hidden;">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href=""><img src="img/Rectangle 11dor.png" alt="Image 1"></a></div>
+            <div class="swiper-slide"><a href=""><img src="img/Rectangle 12ben.png" alt="Image 2"></a></div>
+            <div class="swiper-slide"><a href=""><img src="img/Rectangle 11dor.png" alt="Image 3"></a></div>
+            <div class="swiper-slide"><a href=""><img src="img/Rectangle 12ben.png" alt="Image 2"></a></div>
+            <div class="swiper-slide"><a href=""><img src="img/Rectangle 11dor.png" alt="Image 3"></a></div>
+            <div class="swiper-slide"><a href=""><img src="img/Rectangle 12ben.png" alt="Image 2"></a></div>
+            <div class="swiper-slide"><a href=""><img src="img/Rectangle 11dor.png" alt="Image 3"></a></div>
+            <div class="swiper-slide"><a href=""><img src="img/Rectangle 12ben.png" alt="Image 2"></a></div>
+            <div class="swiper-slide"><a href=""><img src="img/Rectangle 11dor.png" alt="Image 3"></a></div>
+            <div class="swiper-slide"><a href=""><img src="img/Rectangle 12ben.png" alt="Image 2"></a></div>
+            <div class="swiper-slide"><a href=""><img src="img/Rectangle 11dor.png" alt="Image 3"></a></div>
+            <div class="swiper-slide"><a href=""><img src="img/Rectangle 12ben.png" alt="Image 2"></a></div>
+            <div class="swiper-slide"><a href=""><img src="img/Rectangle 12ben.png" alt="Image 2"></a></div>
+            <div class="swiper-slide"><a href=""><img src="img/Rectangle 11dor.png" alt="Image 3"></a></div>
+            <!-- Add more swiper slides as needed -->
+        </div>
+    </div>
+    <!-- <div class="swiper-pagination"></div> -->
+    <h1>kuch bhi</h1>
+
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 4, // Default number of slides per view
+            centeredSlides: false,
+            spaceBetween: 30,
+            freeMode: true, // Enables free mode
+            // pagination: {
+            //     el: '.swiper-pagination',
+            //     clickable: true,
+            // },
+            // Responsive breakpoints
+            breakpoints: {
+                425: {
+                    slidesPerView: 2,
+                },
+                // when window width is <= 768px
+                768: {
+                    slidesPerView: 2,
+                },
+                // when window width is <= 992px
+                992: {
+                    slidesPerView: 3,
+                },
+                // when window width is <= 1200px
+                1200: {
+                    slidesPerView: 4,
+                }
+                // You can add more breakpoints as needed
+            }
+        });
+    </script>
+</body>
+
+</html>

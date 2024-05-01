@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper with Free Mode</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<style>
+    .swiper-container {
+        border: 2px solid black;
+        width: 100%;
+        height: auto;
+        /* Set height to auto to allow resizing based on content */
+    }
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* Center text inside slide */
+    }
+
+    .swiper-slide-content {
+        height: 5vh;
+        width: 10vw;
+        border: 2px solid red;
+        border-radius: 20px;
+        cursor: pointer;
+        max-width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* Adjust width of content as needed */
+    }
+</style>
+
+<body>
+    <!-- First Swiper for images -->
+    <!-- <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/Rectangle 11dor.png" alt="Image 1"></div>
+            <div class="swiper-slide"><img src="img/Rectangle 12ben.png" alt="Image 2"></div>
+            <div class="swiper-slide"><img src="img/Rectangle 11dor.png" alt="Image 3"></div>
+            Add more swiper slides as needed
+        </div>
+        <div class="swiper-pagination"></div>
+    </div> -->
+
+    <!-- Second Swiper for content and text -->
+    <div style="overflow: hidden;">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-slide-content">
+                        Title 1
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-content">
+                        <h2>Title 2</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-content">
+                        <h2>Title 3</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-content">
+                        <h2>Title 3</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-content">
+                        <h2>Title 3</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-content">
+                        <h2>Title 3</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-content">
+                        <h2>Title 3</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-content">
+                        <h2>Title 3</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-content">
+                        <h2>Title 3</h2>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-slide-content">
+                        <h2>Title 3</h2>
+                    </div>
+                </div>
+                <!-- Add more swiper slides as needed -->
+            </div>
+        </div>
+        <!-- <div class="swiper-pagination"></div> -->
+    </div>
+
+    <h1>kuch bhi to nhui
+    </h1>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        // Initialize Swiper for images
+        // var swiper1 = new Swiper('.swiper-container', {
+        //     slidesPerView: 4, // Default number of slides per view
+        //     centeredSlides: true,
+        //     spaceBetween: 30,
+        //     freeMode: true, // Enables free mode
+        //     pagination: {
+        //         el: '.swiper-pagination',
+        //         clickable: true,
+        //     },
+        //     // Responsive breakpoints
+        //     breakpoints: {
+        //         // when window width is <= 768px
+        //         768: {
+        //             slidesPerView: 2,
+        //         },
+        //         // when window width is <= 992px
+        //         992: {
+        //             slidesPerView: 3,
+        //         },
+        //         // when window width is <= 1200px
+        //         1200: {
+        //             slidesPerView: 4,
+        //         }
+        //         // You can add more breakpoints as needed
+        //     }
+        // });
+
+        // Initialize Swiper for content and text
+        var swiper2 = new Swiper('.swiper-container', {
+            slidesPerView: 4, // One slide at a time
+            centeredSlides: false,
+            spaceBetween: 30,
+            freeMode: true, // Enables free mode
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is <= 768px
+                768: {
+                    slidesPerView: 4,
+                },
+                // when window width is <= 992px
+                992: {
+                    slidesPerView: 6,
+                },
+                // when window width is <= 1200px
+                1200: {
+                    slidesPerView: 8,
+                }
+                // You can add more breakpoints as needed
+            }
+        });
+    </script>
+</body>
+
+</html>

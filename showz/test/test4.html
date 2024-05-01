@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swiper with Buttons</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<style>
+    .swiper-container {
+        width: 100%;
+        height: auto;
+        /* Set height to auto to allow resizing based on content */
+    }
+
+    .swiper-slide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide-button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .swiper-slide-button:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+<body>
+    <!-- Swiper for buttons -->
+    <div style="overflow: hidden;">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><button class="swiper-slide-button">Button 1</button></div>
+                <div class="swiper-slide"><button class="swiper-slide-button">Button 2</button></div>
+                <div class="swiper-slide"><button class="swiper-slide-button">Button 3</button></div>
+                <div class="swiper-slide"><button class="swiper-slide-button">Button 4</button></div>
+                <div class="swiper-slide"><button class="swiper-slide-button">Button 5</button></div>
+                <div class="swiper-slide"><button class="swiper-slide-button">Button 6</button></div>
+                <div class="swiper-slide"><button class="swiper-slide-button">Button 7</button></div>
+                <div class="swiper-slide"><button class="swiper-slide-button">Button 8</button></div>
+                <div class="swiper-slide"><button class="swiper-slide-button">Button 9</button></div>
+                <div class="swiper-slide"><button class="swiper-slide-button">Button 10</button></div>
+                <!-- Add more swiper slides as needed -->
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        // Initialize Swiper for buttons
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 10, // Default number of slides per view
+            centeredSlides: false,
+            spaceBetween: 30,
+            freeMode: true, // Enables free mode
+            // pagination: {
+            //     el: '.swiper-pagination',
+            //     clickable: true,
+            // },
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is <= 768px
+                768: {
+                    slidesPerView: 1,
+                },
+                // when window width is <= 992px
+                992: {
+                    slidesPerView: 2,
+                },
+                // when window width is <= 1200px
+                1200: {
+                    slidesPerView: 3,
+                }
+                // You can add more breakpoints as needed
+            }
+        });
+    </script>
+</body>
+
+</html>
