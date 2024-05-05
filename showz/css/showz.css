@@ -38,7 +38,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; */
-    background-color: black;
+    background-color: #121212;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -272,13 +272,14 @@ nav {
 }
 
 .swiper-slide-button {
-    padding: 10px 20px;
-    background-color: rgba(217, 217, 217, 1);
-    color: black;
+    padding: 9px 18px;
+    background-color: #292929;
+    color: #f6f6f6;
     border: none;
     border-radius: 20px;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-size: 13px;
 }
 
 .swiper-slide-button:hover {
@@ -350,8 +351,8 @@ nav {
 #page2 {
     height: fit-content;
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: #121212;
+    color: #f6f6f6;
     display: flex;
     position: relative;
     padding: 1% 2%;
@@ -394,17 +395,17 @@ nav {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    color: black;
+    color: #f6f6f6;
     justify-content: space-between;
 }
 
 .upload {
     height: 10vh;
     width: 98%;
-    background-color: rgba(217, 217, 217, 1);
+    background-color: #292929;
     margin: 1vh 0;
     padding: 0 2vw;
-    border-radius: 2vw;
+    border-radius: 1%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -416,16 +417,16 @@ nav {
 }
 .upload a{
     text-decoration: none;
-    color: black;
+    color: #f6f6f6;
 }
 
 .edit {
     height: 10vh;
     width: 48%;
-    background-color: rgba(217, 217, 217, 1);
+    background-color: #292929;
     margin: 1vh 0;
     padding: 0 0.5vw;
-    border-radius: 2vw;
+    border-radius: 1%;
     display: flex;
     align-items: center;
 }
@@ -437,14 +438,14 @@ nav {
 }
 .edit a{
     text-decoration: none;
-    color: black;
+    color: #f6f6f6;
 }
 
 
 #page3 {
     height: fit-content;
     width: 100%;
-    background-color: black;
+    background-color: #121212;
     color: white;
     padding: 0 1%;
 }
@@ -469,7 +470,7 @@ nav {
     height: fit-content;
     width: 100%;
     display: flex;
-    background-color: black;
+    background-color: #121212;
     color: white;
     display: flex;
     position: relative;
@@ -486,13 +487,14 @@ nav {
     display: flex;
     justify-content: space-between;
     padding-right: 2%;
+    color: #f6f6f6;
 }
 
 .pfuCard {
-    background-color: rgba(217, 217, 217, 1);
+    background-color: #292929;
     height: 15vh;
     width: 99%;
-    border-radius: 1.5vw;
+    border-radius: 1%;
     margin-top: 2vh;
     display: flex;
     /* flex-direction: column; */
@@ -506,7 +508,7 @@ nav {
 
 .pfuCard a{
     text-decoration: none;
-    color: black;
+    color: #f6f6f6;
     margin-bottom: 2vw;
 }
 
@@ -526,10 +528,10 @@ nav {
     /* justify-content: space-evenly; */
 }
 .rpCard {
-    background-color: rgba(217, 217, 217, 1);
+    background-color: #292929;
     height: 7vh;
     width: 99%;
-    border-radius: 1vw;
+    border-radius: 1%;
     padding: 0 1.5vw;
     display: flex;
     align-items: center;
@@ -542,7 +544,7 @@ nav {
 }
 .rpCard a{
     text-decoration: none;
-    color: black;
+    color: #f6f6f6;
     /* margin-bottom: 2vw; */
 }
 
@@ -654,7 +656,7 @@ nav {
 }
 @media (max-width: 549px) {
     .bookmarkContent {
-        font-size: 2.3vw;
+        font-size: 11px;
     }
     .h1 {
         font-size: 4vw;
@@ -700,6 +702,19 @@ nav {
         height: 80px;
         width: 80px;
     } */
+    .swiper-slide-button {
+        padding: 8px 16px;
+        background-color: #292929;
+        color: #f6f6f6;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        font-size: 11px;
+    }
+    #page1 {
+        height: 230px;
+    }
 }
 @media (max-width: 299px) {
     .fpl {
