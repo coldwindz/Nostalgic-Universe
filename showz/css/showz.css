@@ -405,16 +405,17 @@ nav {
     width: 98%;
     background-color: #292929;
     margin: 1vh 0;
-    padding: 0 2vw;
+    padding-right: 2vw;
     border-radius: 1%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .upload img {
-    height: 5vw; 
-    width: 5vw; 
+    height: 3.5vw; 
+    width: 3.5vw; 
     margin-right: 3vw;
+    margin-left: 1vw;
 }
 .upload a{
     text-decoration: none;
@@ -426,16 +427,16 @@ nav {
     width: 48%;
     background-color: #292929;
     margin: 1vh 0;
-    padding: 0 0.5vw;
+    /* padding: 0 0.5vw; */
     border-radius: 1%;
     display: flex;
     align-items: center;
 }
 .edit img {
-    height: 5vw; 
-    width: 5vw; 
+    height: 5.2vw; 
+    width: 5.2vw; 
     margin-right: 1vw;
-    border-radius: 1.5vw;
+    border-radius: 1%;
 }
 .edit a{
     text-decoration: none;
@@ -657,7 +658,12 @@ nav {
 }
 @media (max-width: 549px) {
     .bookmarkContent {
-        font-size: 11px;
+        font-size: 12px;
+        padding-left: 10px;
+        font-weight: 500;
+    }
+    .btn-close{
+        margin-bottom: 2px;
     }
     .h1 {
         font-size: 4vw;
@@ -672,6 +678,7 @@ nav {
     }
     #page2, #page4 {
         flex-direction: column;
+        padding-right: 0;
     }
     .pfuCard > div > a {
         padding-bottom: 20px;
@@ -689,12 +696,25 @@ nav {
         margin-right: 8%;
     }
     .edit img {
-        height: 10vw; 
-        width: 10vw; 
+        height: 17vw; 
+        width: 17vw; 
+    }
+    .edit a{
+        font-weight: 450;
+        font-size: 14px;
+        padding-left: 1px;
+    }
+    .upload{
+        padding-right: 10px;
     }
     .upload img {
         height: 10vw;
         width: 10vw;
+        margin-left: 10px;
+    }
+    .upload a{
+        font-weight: 500;
+        font-size: 15px;
     }
     /* .text-footer {
         font-size: 3vw;
@@ -711,14 +731,43 @@ nav {
         border-radius: 20px;
         cursor: pointer;
         transition: background-color 0.3s;
-        font-size: 11px;
+        font-size: 12px;
     }
     .swiper-slide img{
-        height: 120px;
+        height: 130px;
         border-radius: 12px;
+        z-index: -1;
+    }
+    .swiper-container{
+        width: 100%;
+        z-index: -1;
+    }
+    .swiper-wrapper{
+        width: 100%;
+        z-index: -1;
+    }
+    .mostPopular{
+        padding-right: 0;
+        z-index: -1;
     }
     #page1 {
         height: 230px;
+        z-index: -2;
+    }
+    /* .overlay{
+        z-index: 100;
+    } */
+    /* #myNav{
+        z-index: 2;
+    } */
+    /* .burger{
+        z-index: 50;
+    } */
+    .categories{
+        z-index: -1;
+    }
+    #take-top{
+        z-index: -1;
     }
 }
 @media (max-width: 299px) {
