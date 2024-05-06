@@ -4,6 +4,10 @@ navList = document.querySelector('.nav-list')
 navRight = document.querySelector('.navRight')
 navlogo = document.querySelector('.logo-resp')
 navicons = document.querySelector('.icons-resp')
+mpopular = document.querySelector('.mostPopular')
+swiper = document.querySelector('.nonuSlider')
+categories = document.querySelector('.categories')
+
 // over = document.querySelector('.overlay')
 // clickburger = document.querySelector('.clickburger')
 
@@ -35,6 +39,10 @@ burger.addEventListener('click', ()=>{
         open.classList.toggle('overlay');
         open.classList.toggle('h-overlay');
         overlay1.classList.toggle('display-on');
+        // open.classList.toggle('chhupja');
+        mpopular.classList.toggle('chhupja');
+        swiper.classList.toggle('chhupja');
+        categories.classList.toggle('chhupja');
     }
 
     // let open2 = document.querySelector('.overlay2');

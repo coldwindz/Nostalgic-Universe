@@ -696,8 +696,8 @@ nav {
         margin-right: 8%;
     }
     .edit img {
-        height: 17vw; 
-        width: 17vw; 
+        height: 18vw; 
+        width: 18vw; 
     }
     .edit a{
         font-weight: 450;
@@ -705,7 +705,8 @@ nav {
         padding-left: 1px;
     }
     .upload{
-        padding-right: 10px;
+        padding-right: 20px;
+        padding-left: 5px;
     }
     .upload img {
         height: 10vw;
@@ -736,23 +737,41 @@ nav {
     .swiper-slide img{
         height: 130px;
         border-radius: 12px;
-        z-index: -1;
+        /* z-index: -1; */
     }
     .swiper-container{
-        width: 100%;
-        z-index: -1;
+        /* width: 100%; */
+        /* z-index: -1; */
     }
     .swiper-wrapper{
-        width: 100%;
-        z-index: -1;
+        /* width: 100%; */
+        /* z-index: -1; */
     }
     .mostPopular{
         padding-right: 0;
-        z-index: -1;
+        /* z-index: -1; */
     }
     #page1 {
         height: 230px;
-        z-index: -2;
+        /* z-index: -1; */
+    }
+    .line{
+        z-index: 10;
+    }
+    .top{
+        z-index: 10;
+    }
+    .bottom{
+        z-index: 10;
+    }
+    .burger{
+        z-index: 10;
+    }
+    .overlay{
+        z-index: 10;
+    }
+    .chhupja{
+        z-index: -1;
     }
     /* .overlay{
         z-index: 100;
@@ -764,7 +783,7 @@ nav {
         z-index: 50;
     } */
     .categories{
-        z-index: -1;
+        /* z-index: -1; */
     }
     #take-top{
         z-index: -1;
