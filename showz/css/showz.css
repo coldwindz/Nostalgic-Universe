@@ -696,13 +696,16 @@ nav {
         margin-right: 8%;
     }
     .edit img {
-        height: 18vw; 
-        width: 18vw; 
+        height: 18.5vw; 
+        width: 18.5vw; 
     }
     .edit a{
         font-weight: 450;
         font-size: 14px;
         padding-left: 1px;
+    }
+    .AmvEdit{
+        height: 220px;
     }
     .upload{
         padding-right: 20px;
@@ -749,6 +752,7 @@ nav {
     }
     .mostPopular{
         padding-right: 0;
+        /* padding-left: 0; */
         /* z-index: -1; */
     }
     #page1 {

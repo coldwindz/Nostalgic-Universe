@@ -41,8 +41,8 @@ burger.addEventListener('click', ()=>{
         overlay1.classList.toggle('display-on');
         // open.classList.toggle('chhupja');
         mpopular.classList.toggle('chhupja');
-        swiper.classList.toggle('chhupja');
         categories.classList.toggle('chhupja');
+        swiper.classList.toggle('chhupja');
     }
 
     // let open2 = document.querySelector('.overlay2');
@@ -83,7 +83,8 @@ ham2 = document.querySelector('.ham2')
         hamMenu.classList.toggle('no-display');
         navlogo.classList.toggle('v-class-resp');
         navicons.classList.toggle('no-display');
-        
+        mpopular.classList.toggle('chhupja');
+        categories.classList.toggle('chhupja');
         // hamMenu.classList.toggle('display-on');
     }
 
