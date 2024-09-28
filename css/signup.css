@@ -140,7 +140,8 @@ input {
 
     float: left;
 
-    margin-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 #button_container button {
