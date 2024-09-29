@@ -16,8 +16,14 @@
       <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <!-- Our stylesheet -->
     <link rel="stylesheet" type="text/css" href="../css/signup.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <script src="https://kit.fontawesome.com/32befec230.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+   
+
 
     <div id="content_container"> 
         <div id="form_container">
@@ -30,10 +36,12 @@
                     <!-- <input type="text" id="full_name" placeholder="Name"> -->
                     <input type="text" id="username" placeholder="Username">
                     <input type="email" id="email" placeholder="Email">
-                    <div class="password">
-                        <input type="password" id="password" placeholder="Password">
-                        <img src="../img/passhide.png" onclick="pass()" class="pass-icon" id="pass-icon">
-                    </div>
+                    <form>
+                     <div class="password">
+                         <input type="password" id="password" placeholder="Password">
+                         <img src="../img/passshow.png" onclick="pass()" class="pass-icon" id="pass-icon">
+                     </div>
+                    </form>
 
                     <div id="button_container">
                         <button onclick="login()">Login</button>
@@ -43,8 +51,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>    
+
+   
+
     
+    <script src="../js/signup.js"></script>
 </body>
-<script> src="../js/signup.js" </script>
+
 </html>
