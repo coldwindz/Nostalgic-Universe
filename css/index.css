@@ -35,12 +35,13 @@ header{
     /* cursor: pointer; */
     background-color: #0f0f10;
     background-color: RGB 245, 254, 253;
-    padding: 0 15px;
+    /* padding: 0 15px; */
+    padding: 0 400px;
     z-index: 1;
 }
 
 .logo{
-    width: 10%;
+    width: 8%;
     display: flex;
     justify-content: center;
     /* margin-right: 10px; */
@@ -58,28 +59,29 @@ header{
 }
 
 .logo img{
-    width: 60%;
-    height: 60%;
+    width: 30px;
+    /* height: 60%; */
     align-items: center;
     /* padding-bottom: 10px; */
+    margin-right: 40px;
 }
 
 .nav-list{
     display: flex;
-    width: 50%;
+    width: 55%;
     align-items: center;
     
 }
 .listed{
     list-style: none;
     /* margin: 25px; */
-    padding: 26px 30px;
+    padding: 10px 30px;
 }
 .listed > a {
     text-decoration: none;
     color: #ededee;
-    font-size: 20px;
-    font-weight: 550;
+    font-size: 18px;
+    font-weight: 400;
     cursor: pointer;
 }
 
@@ -114,6 +116,27 @@ header{
     margin-left: 20%;
     margin-right: 2%;
     
+}
+
+.icons{
+    /* display: block; */
+    z-index: 2;
+    right: 34.6%;
+    align-items: center;
+    color: #ededee;
+    /* position: fixed; */
+}
+.search-icon-2{
+    cursor: pointer;
+    
+}
+
+.login-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0f0f10;
 }
 
 .background{
@@ -180,6 +203,18 @@ header{
     color: #ededee;
 }
 
+.btn-2{
+    
+        background: none;
+        border: none;
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 17px;
+        /* margin: 15px; */
+        color: #ededee;
+    
+}
+
 .btn-sm{
     border: 2px solid #ededee;
     border-radius: 20px;
@@ -226,13 +261,14 @@ header{
   }
 
 .SignUp{
-    border: 2px solid #ededee;
+    border: 1px solid #ededee;
     border-radius: 20px;
-    padding: 5px 15px;
+    padding: 4px 12px;
     color: #0f0f10;
     background-color: #ededee;
-    transition: 0.2s ease-out;
-    
+    transition: 0.4s ease-out;
+    right: 0;
+    margin: 15px 60px;
 }
 
 .SignUp:hover{
