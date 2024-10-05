@@ -256,14 +256,41 @@ header{
     font-size: 1em;
     color: #ededee;
     font-weight: 600;
-    padding: 0 35px 0 5px;
+    /* padding: 0 35px 0 5px; */
+    padding: 0 90px 0 5px;
 }
+.p-show{
+    position: absolute;
+    right: 40px;
+    line-height: 50px;
+    font-size: 0.9em;
+    color: #ededee;
+    text-decoration: none;
+    cursor: pointer;
+}
+.p-hide{
+    display: none;
+    position: absolute;
+    right: 40px;
+    line-height: 50px;
+    font-size: 0.9em;
+    color: #ededee;
+    text-decoration: none;
+    cursor: pointer;
+}
+.display-no{
+    display: none;
+}
+.display-on{
+    display: block;
+}
+
 .input-box .icon{
     position: absolute;
     right: 8px;
     font-size: 1.2em;
     color: #ededee;
-    line-height: 57px;
+    line-height: 55px;
 }
 
 .remember-forgot{

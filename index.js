@@ -64,3 +64,28 @@ RegisterLink.addEventListener('click', ()=> {
 LoginLink.addEventListener('click', ()=> {
     wrapper.classList.remove('active-2');
 })
+
+
+let Pshow = document.querySelector(".p-show");
+Phide = document.querySelector('.p-hide');
+
+var a;
+function pass2() {
+    Pshow.classList.toggle("p-show");
+    Pshow.classList.toggle("display-no");
+    Pshow.classList.toggle("p-hide");
+    // document.getElementById('password').type='text';
+    Phide.classList.toggle('display-on');
+
+    if(a==1)
+            {
+                document.getElementById('password').type='password';
+                a=0;
+            }
+            else
+            {
+                document.getElementById('password').type='text';
+                a=1;
+            }
+    
+}
