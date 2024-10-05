@@ -153,6 +153,58 @@
         width: 46px;
         z-index: 10;
     } */
+    .ham3{
+        display: none;
+        /* height: 40px; */
+        /* width: 40px; */
+        /* background-color: #6c6cc6; */
+         position: fixed;
+         cursor: pointer;
+        /* right: 2px;
+        top: 15px;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center; */  
+        z-index: 6;
+       }
+       .ham3 .burger3{
+        display: block;
+        /* height: 18px; */
+        position: fixed;
+        /* background-color: red; */
+        /* width: 18px; */
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        z-index: 6;
+       }
+       .burger3 .line2{
+        transition: all 0.2s linear;
+        z-index: 6;
+       }
+       .ham3.active .burger3{
+        top: 25px;
+        right: 17px;
+        z-index: 6;
+        position: fixed;
+       }
+       .ham3.active .line2{
+        margin: 0;
+        z-index: 6;
+       }
+       .ham3.active .line2.top{
+            top: 50%;
+            transform: translateY(50%) rotate(45deg);
+            /* width: 30px; */
+            z-index: 6;
+        }
+        .ham3.active .line2.bottom{
+            bottom: 50%;
+            transform: translateY(-50%) rotate(-45deg);
+            /* width: 30px; */
+            z-index: 6;
+        }
 
     
 
@@ -298,6 +350,231 @@
     font-weight: 650;
     
    }
+
+   /* login page */
+   
+   
+.h-veiled{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 6%;
+    background-color: #0f0f10;
+    overflow-x: hidden;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    background: transparent;
+   }
+    .veiled{
+        height: 0%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 6%;
+        background-color: #0f0f10;
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+.login-body{
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    width: 100%;
+    top: 6%;
+    height: 0%;
+    background: transparent;
+    z-index: 2;
+    transition: 1s;
+}
+.h-login-body{
+    display: block;
+    position: fixed;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-items: center; */
+    width: 100%;
+    top: 6%;
+    height: 100%;
+    background: transparent;
+    z-index: 2;
+    transition: 1s;
+}
+.display-on-2{
+    display: block;
+    transition: 0.5s;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.7s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+    25% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.wrapper{
+    position: absolute;
+    /* margin: 0px 40%; */
+    margin-left: 15%;
+    margin-right: 15%;
+    top: 4%;
+    width: 70%;
+    height: 440px;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: scale(0);
+    transition: 0.5s ease, height 0.2s ease;
+}
+.popup{
+    transform: scale(1);
+}
+.form-box{
+    width: 100%;
+}
+.form-box h2{
+    font-size: 2em;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    height: 50px;
+    border-bottom: 2px solid #ededee;
+    margin: 30px 0;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #ededee;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #ededee;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #ededee;
+    line-height: 57px;
+}
+
+.remember-forgot{
+    font-size: .9em;
+    color: #ededee;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot label input{
+    accent-color: #ededee;
+    margin-right: 3px;
+}
+.remember-forgot a{
+    color: #ededee;
+    text-decoration: none;
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+.btn-3{
+    width: 100%;
+    height: 45px;
+    background: #ededee;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #0f0f10;
+    font-weight: 500;
+}
+.login-register{
+    font-size: .9em;
+    color: #ededee;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+    
+}
+.login-register p a{
+    color: #ededee;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login-register p a:hover {
+    text-decoration: underline;
+}
+.wrapper .form-box.login{
+    /* display: none; */
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+.wrapper.active-2 .form-box.login{
+    transition: none;
+    transform: translateX(-400px);
+}
+
+.register {
+    color: #ededee;
+}
+.wrapper .form-box.register{
+    position: absolute;
+    transition: none;
+    transform: translateX(400px);
+}
+.wrapper.active-2 .form-box.register{
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
+
    .firstSection{
     height: 500px;
    }

@@ -59,7 +59,7 @@ header{
 }
 
 .logo img{
-    width: 30px;
+    width: 32px;
     /* height: 60%; */
     align-items: center;
     /* padding-bottom: 10px; */
@@ -81,7 +81,7 @@ header{
     text-decoration: none;
     color: #ededee;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 450;
     cursor: pointer;
 }
 
@@ -125,19 +125,217 @@ header{
     align-items: center;
     color: #ededee;
     /* position: fixed; */
+    /* width: 40px;
+    margin-left: 20px; */
+}
+.icon-2{
+    z-index: 2;
+    /* right: 20%; */
+    align-items: center;
+    color: #ededee;
 }
 .search-icon-2{
     cursor: pointer;
     
 }
+.bm-icon-2{
+    cursor: pointer;
+    padding: 10px 60px;
+}
 
 .login-body{
-    display: flex;
+    display: none;
+    position: fixed;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    background: #0f0f10;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    width: 100%;
+    top: 6%;
+    height: 0%;
+    background: transparent;
+    z-index: 1;
+    transition: 1s;
 }
+.h-login-body{
+    display: block;
+    position: fixed;
+    /* justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-items: center; */
+    width: 100%;
+    top: 6%;
+    height: 60%;
+    background: transparent;
+    z-index: 2;
+    transition: 1s;
+}
+.display-on-2{
+    display: block;
+    transition: 0.5s;
+}
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.7s;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+    25% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.wrapper{
+    position: absolute;
+    /* margin: 0px 40%; */
+    margin-left: 40%;
+    margin-right: 40%;
+    top: 4%;
+    width: 24%;
+    height: 440px;
+    display: flex;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: scale(0);
+    transition: 0.5s ease, height 0.2s ease;
+}
+.popup{
+    transform: scale(1);
+}
+.form-box{
+    width: 100%;
+}
+.form-box h2{
+    font-size: 2em;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    height: 50px;
+    border-bottom: 2px solid #ededee;
+    margin: 30px 0;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #ededee;
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #ededee;
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+}
+.input-box .icon{
+    position: absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: #ededee;
+    line-height: 57px;
+}
+
+.remember-forgot{
+    font-size: .9em;
+    color: #ededee;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.remember-forgot label input{
+    accent-color: #ededee;
+    margin-right: 3px;
+}
+.remember-forgot a{
+    color: #ededee;
+    text-decoration: none;
+}
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+.btn-3{
+    width: 100%;
+    height: 45px;
+    background: #ededee;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #0f0f10;
+    font-weight: 500;
+}
+.login-register{
+    font-size: .9em;
+    color: #ededee;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+    
+}
+.login-register p a{
+    color: #ededee;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login-register p a:hover {
+    text-decoration: underline;
+}
+.wrapper .form-box.login{
+    /* display: none; */
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+.wrapper.active-2 .form-box.login{
+    transition: none;
+    transform: translateX(-400px);
+}
+
+.register {
+    color: #ededee;
+}
+.wrapper .form-box.register{
+    position: absolute;
+    transition: none;
+    transform: translateX(400px);
+}
+.wrapper.active-2 .form-box.register{
+    transition: transform .18s ease;
+    transform: translateX(0);
+}
+
 
 .background{
     /* background: rgba(0, 0, 0, 0.7) url('../img/yan-ru-afternoon1.jpg'); */
@@ -208,8 +406,8 @@ header{
         background: none;
         border: none;
         font-family: "Inter", sans-serif;
-        font-weight: 500;
-        font-size: 17px;
+        font-weight: 550;
+        font-size: 16px;
         /* margin: 15px; */
         color: #ededee;
     
@@ -232,7 +430,7 @@ header{
     padding: 5px 15px; */
     /* color: white;
     background-color: black; */
-    cursor: pointer;
+    /* cursor: pointer; */
     /* text-decoration: underline; */
 }
 
@@ -248,11 +446,12 @@ header{
     width: 100%;
     transform: scaleX(0);
     height: 2px;
-    bottom: 0;
+    bottom: -4px;
     left: 0;
     background-color: #ededee;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
+    
   }
   
   .hover-underline-animation:hover::after {
@@ -263,7 +462,7 @@ header{
 .SignUp{
     border: 1px solid #ededee;
     border-radius: 20px;
-    padding: 4px 12px;
+    padding: 4px 14px;
     color: #0f0f10;
     background-color: #ededee;
     transition: 0.4s ease-out;
@@ -276,6 +475,42 @@ header{
     color: #ededee;
     cursor: pointer;
 }
+
+.h-veiled{
+    height: 60%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 6%;
+    background-color: #0f0f10;
+    overflow-x: hidden;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+   }
+    .veiled{
+        height: 0%;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 6%;
+        background-color: #0f0f10;
+        overflow-x: hidden;
+        transition: 0.5s;
+    }
+    .half{
+        height: 60%;
+        top: 6%;
+        transition: 0.5s;
+    }
+    .ZindagiKa{
+        /* filter: blur(5px); */
+        
+    }
 
 .watch{
     margin: 22px 0;

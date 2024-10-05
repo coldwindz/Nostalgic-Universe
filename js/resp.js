@@ -74,8 +74,51 @@ ham2 = document.querySelector('.ham2')
         // open.classList.toggle('over-the-top');
     })
 
+    overlay2 = document.querySelector('.login-body')
+
+    let ham3 = document.querySelector(".ham3");
+
+
+ham3.addEventListener("click", ()=>{
+    ham3.classList.toggle("no-display");
+})
+
+ham3 = document.querySelector('.ham3')
+
     
     function fourth() {
+      
+
+        open.classList.toggle('overlay');
+        open.classList.toggle('h-overlay');
+        ham3.classList.toggle('display-on');
+        ham3.classList.toggle("active");
+        
+        hamMenu.classList.toggle('no-display');
+        navlogo.classList.toggle('v-class-resp');
+        navicons.classList.toggle('no-display');
+        // mpopular.classList.toggle('chhupja');
+        // categories.classList.toggle('chhupja');
+        // hamMenu.classList.toggle('display-on');
+
+        
+        // VeiledNav.classList.toggle("veiled");
+        // VeiledNav.classList.toggle("h-veiled");
+        // Bharosa.classList.toggle("ZindagiKa");
+        // overlay2.classList.toggle('display-on-2');
+
+        overlay2.classList.toggle('login-body');
+        overlay2.classList.toggle('h-login-body');
+        overlay2.classList.toggle('fade-in');
+        Wrapper2.classList.toggle('popup');
+        
+    }
+
+    // function crazy() {
+        
+    // }
+
+    function fifth() {
         open.classList.toggle('overlay');
         open.classList.toggle('h-overlay');
         ham2.classList.toggle('display-on');
@@ -85,7 +128,6 @@ ham2 = document.querySelector('.ham2')
         navicons.classList.toggle('no-display');
         mpopular.classList.toggle('chhupja');
         categories.classList.toggle('chhupja');
-        // hamMenu.classList.toggle('display-on');
     }
 
     // let open2 = document.querySelector('.overlay');

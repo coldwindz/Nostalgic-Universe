@@ -67,14 +67,25 @@
                 <i class="fa-solid fa-magnifying-glass"></i>
             </span>
             </div>
-            <span onclick="">
+            <div class="icon-2">
+                <span class="bm-icon-2 listed">
+                <i class="fa-regular fa-bookmark"></i>
+            </span>
+            </div>
+            
+            <span>
             <!-- <a href="pages/singup.html"><button class="SignUp btn">Login</button></a> -->
-            <a href=""><button class="SignUp btn-2">Login</button></a>
+            <button onclick="veil()" class="SignUp btn-2">Login</button>
             </span>
         <!-- </div> -->
 
 
     </nav>
+
+    <div id="myNav2" class="veiled">
+        
+    </div>
+
 
     <div id="pyo">
 
@@ -85,10 +96,10 @@
                 <h1>Nostalgic Universe</h1>
             </div>
     <div class="icons-resp">
-        <span id="searchicon" class="search-icon" onclick="fourth()">
+        <span id="searchicon" class="search-icon" onclick="fifth()">
             <i class="fa-solid fa-magnifying-glass"></i>
         </span>
-        <span onclick="fourth()">
+        <span onclick="fifth()">
         <i class="fa-regular fa-bookmark"></i>
         </span>
         <span onclick="fourth()">
@@ -106,8 +117,18 @@
             </div>
 
             <div id="burger2" class="ham2">
-                <span onclick="fourth()">
+                <span onclick="fifth()">
                     <div class="burger2">
+                        <!-- <input class="check" type="checkbox" name="" id=""> -->
+                        <div class="line2 top"></div>
+                        <div class="line2 bottom"></div>
+                    </div>
+                </span>
+            </div>
+
+            <div id="burger3" class="ham3">
+                <span onclick="fourth()">
+                    <div class="burger3">
                         <!-- <input class="check" type="checkbox" name="" id=""> -->
                         <div class="line2 top"></div>
                         <div class="line2 bottom"></div>
@@ -151,19 +172,70 @@
 
         <div class="tumseHi"></div>
 
-        <div class="parda">
+        <!-- <div class="parda"> -->
 
         <!-- </div> -->
 
-    <!-- <div class="login-body">
+    <div class="login-body">
         <div class="wrapper">
             <div class="form-box login">
                 <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="btn-3">Login</button>
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                    </div>
+                </form>
             </div>
-        </div>
-    </div> -->
 
-            <section class="background firstSection">
+            <div class="form-box register">
+                <h2>Registration</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> I agree to the terms & conditions</label>
+                        
+                    </div>
+                    <button type="submit" class="btn-3">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <section class="TuHiBharosa">
+
+            <div class="background firstSection">
                 <div class="box-main">
                     <div class="firstHalf">
 
@@ -189,12 +261,12 @@
                 <p class="small-text">In this world where everyone is some race or the other, fighting against each
                     other to be the best or fighting with themselves to the the best version of themselves. Who is
                     asking you to take break and regain your strength to achieve wonders. Here we do that.</p> -->
-                    </div>
+                    
                     <div class="secondHalf">
                         <img src="img/Pikachu.png" alt="pikachu">
                     </div>
                 </div>
-            </section>
+            </div>
 
         </div>
 
@@ -253,6 +325,10 @@
     <div class="d-button"><a href="https://www.nostalgicuniverse.great-site.net/?i=1"><button
                 class="d-button-in">Join now</button></a></div>
 </div>
+
+
+
+</section>
 
 <!-- <div class="more">
     <h1>Also by yours truly</h1>
@@ -460,6 +536,8 @@
 
     </div>
 
+
+
     <!-- <div class="welcome">
         <div class="content1">
             <h1>Welcome to</h1> <br>
@@ -506,13 +584,13 @@
             fadeOutDelay: 180,
             loop: true,
             loopCount: 5,
-
+            
 
         })
     </script>
 
     <script src="js/resp.js"></script>
-    <script src="js/index.js"></script>
+    <script src="index.js"></script>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
