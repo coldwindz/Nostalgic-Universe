@@ -62,6 +62,7 @@
             <!-- <input type="text" name="search" id="search">
             <button class="btn btn-sm">Search</button> -->
             <!-- <a href=""><button class="login btn hover-underline-animation">Login</button></a> -->
+            
             <div class="icons">
             <span class="search-icon-2 listed">
                 <i class="fa-solid fa-magnifying-glass"></i>
@@ -75,7 +76,7 @@
             
             <span>
             <!-- <a href="pages/singup.html"><button class="SignUp btn">Login</button></a> -->
-            <button onclick="veil()" class="SignUp btn-2">Login</button>
+            <button onclick="veil()" id="SignUp" class="SignUp btn-2">Signin</button>
             </span>
         <!-- </div> -->
 
@@ -179,61 +180,73 @@
     <div class="login-body">
         <div class="wrapper">
             <div class="form-box login">
-                <h2>Login</h2>
+                <h2>Nostalgic Universe</h2>
+                 <!-- <img src="img/Nostalgic Universe-2.png" alt=""> -->
                 <form action="#">
+                    <!-- <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div> -->
                     <div class="input-box">
                         <span class="icon"><ion-icon name="mail"></ion-icon></span>
-                        <input type="email" required>
+                        <input type="email" id="email" required>
                         <label>Email</label>
                     </div>
                     <div class="input-box">
                         <p class="p-show" onclick="pass2()">Show</p>
                         <p class="p-hide" onclick="pass2()">Hide</p>
                         <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                        <input id="password" type="password" required>
+                        <input id="p2" type="password" required>
                         <label>Password</label>
                     </div>
                     <div class="remember-forgot">
                         <label><input type="checkbox"> Remember me</label>
                         <a href="#">Forgot Password?</a>
                     </div>
-                    <button type="submit" class="btn-3">Login</button>
+                    <!-- <button onclick="login()" type="submit" class="btn-3">Log in</button> -->
+                    <button id="login" class="btn-3">Log in</button>
                     <div class="login-register">
-                        <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                        <p>Don't have an account? <a href="#" class="register-link">Sign up</a></p>
                     </div>
                 </form>
             </div>
 
             <div class="form-box register">
-                <h2>Registration</h2>
+                <h2>Nostalgic Universe</h2>
                 <form action="#">
                     <div class="input-box">
                         <span class="icon"><ion-icon name="person"></ion-icon></span>
-                        <input type="text" required>
+                        <input id="username" type="text" required>
                         <label>Username</label>
                     </div>
                     <div class="input-box">
                         <span class="icon"><ion-icon name="mail"></ion-icon></span>
-                        <input type="email" required>
+                        <input id="email" type="email" required>
                         <label>Email</label>
                     </div>
                     <div class="input-box">
+                        <p class="p-show1" onclick="pass3()">Show</p>
+                        <p class="p-hide1" onclick="pass3()">Hide</p>
                         <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                        <input type="password" required>
+                        <input id="password" type="password" required>
                         <label>Password</label>
                     </div>
                     <div class="remember-forgot">
                         <label><input type="checkbox"> I agree to the terms & conditions</label>
                         
                     </div>
-                    <button type="submit" class="btn-3">Register</button>
+                    <button id="register" class="btn-3">Sign Up</button>
                     <div class="login-register">
-                        <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+                        <p>Have an account? <a href="#" class="login-link">Log in</a></p>
                     </div>
                 </form>
             </div>
 
+            
+
         </div>
+        <button id="logout" class="btn-3 lo-btn">Log Out</button>
     </div>
     <section class="TuHiBharosa">
 
@@ -273,7 +286,8 @@
         </div>
 
         <div id="watchnow" class="tv">
-            <h1>Retro TV Shows</h1>
+            <!-- <h1>Retro TV Shows</h1> -->
+            <h1>Time TV</h1>
             <p>End of your search is here.</p>
             <div class="tv-btn"><a href="showz/showz.html"><button>Browse now</button></a></div>
             <div class="tv-img"><img src="img/retro-tv-television-clipart-ai-generated-free-png-2-compressed.webp" alt=""></div>
@@ -289,7 +303,7 @@
 
 <div class="gutargoo">
     <h2>🕊️</h2>
-    <h1>Gutar Goo Chat</h1>
+    <h1>Gutar Goo</h1>
     <p>Transforming the way you connect.</p>
     <div class="tv-btn"><a href="Gutar Goo/gutargoo.html"><button>Chat now</button></a></div>
 </div>
@@ -322,8 +336,10 @@
     <!-- <div class="d-icon">
         <i class="fa-solid fa-comments"></i>
     </div> -->
-    <div class="d-text">New to Community?</div>
-    <p>Join nostalgic discussion forum.</p>
+    <!-- <div class="d-text">New to Community?</div> -->
+    <div class="d-text">Majmah</div>
+    <!-- <p>Join nostalgic discussion forum.</p> -->
+    <p>Nostalgic Community forum.</p>
     <div class="d-button"><a href="https://www.nostalgicuniverse.great-site.net/?i=1"><button
                 class="d-button-in">Join now</button></a></div>
 </div>
@@ -569,7 +585,21 @@
 
             </div> -->
 
-    <script src="index.js"></script>
+    <!-- <script src="index.js"></script>
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+    
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-database.js";
+      
+        
+      </script>
+
+      <script src="js/signup.js"></script> -->
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
@@ -591,11 +621,45 @@
         })
     </script>
 
-    <script src="js/resp.js"></script>
-    <script src="index.js"></script>
+    
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
+<!-- <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-database.js";
+    // import {getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword} from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+    
+  </script> -->
+
+   <!-- The core Firebase JS SDK is always required and must be listed first -->
+   <!-- <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js"></script> -->
+
+   <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+   <!-- <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-database.js"></script>
+   <script> import {getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword} from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js"; </script> -->
+
+    <!-- <script> 
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+    import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
+    import { getDatabase } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-database.js";
+    </script> -->
+
+<script type="module" src="js/signup.js"></script>
+<script src="index.js"></script>
+<script src="js/resp.js"></script>
+
+
+
+
 
 </html>

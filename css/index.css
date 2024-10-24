@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Borel&family=Ephesis&family=Indie+Flower&family=Inter:wght@100..900&family=Lexend+Mega:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -220,9 +227,20 @@ header{
 .form-box{
     width: 100%;
 }
+.form-box img{
+    width: 100%;
+    
+}
 .form-box h2{
-    font-size: 2em;
+    font-size: 1.9em;
     text-align: center;
+    /* font-family: "Bebas Neue", sans-serif; */
+    /* font-family: "Satisfy", cursive; */
+    /* font-family: "Nunito", sans-serif; */
+    /* font-optical-sizing: auto; */
+    font-weight: 700;
+    font-style: bold;
+    /* color: #E50914; */
 }
 .input-box{
     position: relative;
@@ -233,18 +251,20 @@ header{
 .input-box label{
     position: absolute;
     top: 50%;
-    left: 5px;
+    left: 40px;
     transform: translateY(-50%);
     font-size: 1em;
     color: #ededee;
     font-weight: 500;
     pointer-events: none;
     transition: .5s;
+    
 }
 
 .input-box input:focus~label,
 .input-box input:valid~label {
     top: -5px;
+    color: #BCC0C4;
 }
 
 .input-box input{
@@ -257,26 +277,33 @@ header{
     color: #ededee;
     font-weight: 600;
     /* padding: 0 35px 0 5px; */
-    padding: 0 90px 0 5px;
+    /* padding: 0 90px 0 5px; */
+    padding: 0 60px 0 40px;
 }
 .p-show{
     position: absolute;
-    right: 40px;
+    right: 10px;
     line-height: 50px;
     font-size: 0.9em;
     color: #ededee;
     text-decoration: none;
     cursor: pointer;
+}
+.p-show:hover{
+    color: #BCC0C4;
 }
 .p-hide{
     display: none;
     position: absolute;
-    right: 40px;
+    right: 10px;
     line-height: 50px;
     font-size: 0.9em;
     color: #ededee;
     text-decoration: none;
     cursor: pointer;
+}
+.p-hide:hover{
+    color: #BCC0C4;
 }
 .display-no{
     display: none;
@@ -285,9 +312,43 @@ header{
     display: block;
 }
 
+
+.p-show1{
+    position: absolute;
+    right: 10px;
+    line-height: 50px;
+    font-size: 0.9em;
+    color: #ededee;
+    text-decoration: none;
+    cursor: pointer;
+}
+.p-show1:hover{
+    color: #BCC0C4;
+}
+.p-hide1{
+    display: none;
+    position: absolute;
+    right: 10px;
+    line-height: 50px;
+    font-size: 0.9em;
+    color: #ededee;
+    text-decoration: none;
+    cursor: pointer;
+}
+.p-hide1:hover{
+    color: #BCC0C4;
+}
+.display-no1{
+    display: none;
+}
+.display-on1{
+    display: block;
+}
+
 .input-box .icon{
     position: absolute;
-    right: 8px;
+    /* right: 8px; */
+    left: 8px;
     font-size: 1.2em;
     color: #ededee;
     line-height: 55px;
@@ -300,6 +361,7 @@ header{
     margin: -15px 0 15px;
     display: flex;
     justify-content: space-between;
+    display: none;
 }
 .remember-forgot label input{
     accent-color: #0f0f10;
@@ -314,15 +376,21 @@ header{
 }
 .btn-3{
     width: 100%;
-    height: 45px;
-    background: #ededee;
+    height: 30px;
+    /* background: #ededee; */
+    /* background: #90d5ff; */
+    background: rgb(0, 149, 246);
     border: none;
     outline: none;
     border-radius: 6px;
     cursor: pointer;
     font-size: 1em;
-    color: #0f0f10;
+    /* color: #0f0f10; */
+    color: #ededee;
     font-weight: 500;
+}
+.btn-3:hover{
+    background: #1877F2;
 }
 .login-register{
     font-size: .9em;
@@ -333,12 +401,13 @@ header{
     
 }
 .login-register p a{
-    color: #ededee;
+    color: rgb(0, 149, 246);
     text-decoration: none;
     font-weight: 600;
 }
 .login-register p a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    cursor: pointer;
 }
 .wrapper .form-box.login{
     /* display: none; */
@@ -361,6 +430,15 @@ header{
 .wrapper.active-2 .form-box.register{
     transition: transform .18s ease;
     transform: translateX(0);
+}
+.lo-btn{
+    width: 24%;
+    margin-top: 46%;
+    margin-left: 40%;
+    background-color: #ededee;
+    color: #0f0f10;
+    cursor: pointer;
+    
 }
 
 
@@ -504,7 +582,7 @@ header{
 }
 
 .h-veiled{
-    height: 60%;
+    height: 100%;
     width: 100%;
     position: fixed;
     z-index: 1;
@@ -999,7 +1077,7 @@ font-size: 90px;
 }
 .d-text{
 text-align: center;
-font-size: 60px;
+font-size: 48px;
 padding-top: 200px;
 }
 .community p{
