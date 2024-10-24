@@ -582,10 +582,11 @@
     width: 70%;
     align-items: center;
     text-align: center;
-    margin: 180% 15%;
+    margin-left: 15%;
     background-color: #ededee;
     color: #0f0f10;
     cursor: pointer;
+    margin-top: 135%;
 }
 
 
