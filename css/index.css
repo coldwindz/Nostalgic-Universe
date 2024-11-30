@@ -438,7 +438,7 @@ header{
     background-color: #ededee;
     color: #0f0f10;
     cursor: pointer;
-    
+    display: none;
 }
 
 
