@@ -25,6 +25,7 @@
 Bharosa = document.querySelector('.TuHiBharosa')
 overlay2 = document.querySelector('.login-body')
 Wrapper2 = document.querySelector('.wrapper')
+Smth = document.querySelector('.something')
 // ham3 = document.querySelector('.ham3')
 
 
@@ -44,6 +45,7 @@ function veil() {
     overlay2.classList.toggle('h-login-body');
     overlay2.classList.toggle('fade-in');
     Wrapper2.classList.toggle('popup');
+    Smth.classList.toggle('hidenseek');
 
     // ham3.classList.toggle('display-on');
     //     ham3.classList.toggle("active");

@@ -29,6 +29,10 @@ header{
 }
 
 
+.dmca1{
+    text-align: justify;
+    padding: 0% 12%;
+}
 
 .navbar{
     /* height: 15vh; */
@@ -585,7 +589,7 @@ header{
     height: 100%;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 10;
     left: 0;
     top: 6%;
     background-color: #0f0f10;
@@ -1431,3 +1435,14 @@ padding-top: 200px;
 .catcontainer{
     
 }
+/* #page3{
+    height: 260px;
+} */
+/* #page4{
+    height: 320px;
+    
+} */
+ #space2{
+    height: 20px;
+    background-color: #0f0f10;
+ }

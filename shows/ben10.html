@@ -38,20 +38,44 @@
                 <li class="listed"><a href="https://www.nostalgicuniverse.great-site.net/index.php">Forum</a></li>
                 <li class="listed"><a href="#contact">Help</a></li> -->
             <li class="listed"><a class="hover-underline-animation" href="../index.html">Home</a></li>
-            <li class="listed"><a class="hover-underline-animation" href="../pages/oldtvshows.html">Shows</a></li>
-            <li class="listed"><a class="hover-underline-animation" href="">Store</a></li>
-            <li class="listed"><a class="hover-underline-animation" href="">Pricing</a></li>
-            <li class="listed"><a class="hover-underline-animation" href="">More</a></li>
+            <li class="listed"><a class="hover-underline-animation" href="../showz/showz.html">Shows</a></li>
+            <!-- <li class="listed"><a class="hover-underline-animation" href="">Store</a></li> -->
+            <li class="listed"><a class="hover-underline-animation" href="#">Pricing</a></li>
+            <li class="listed"><a class="hover-underline-animation" href="../pages/contact.html">Contact</a></li>
         </ul>
-        <div class="navRight v-class-resp">
-            <!-- <input type="text" name="search" id="search"> -->
-            <!-- <button class="btn btn-sm">Search</button> -->
-            <button class="login btn hover-underline-animation">Login</button>
-            <button class="SignUp btn">Signup</button>
-        </div>
+        
+        <div id="search"></div>
+    
+        <!-- <div class="navRight v-class-resp"> -->
+            
+            <!-- <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button> -->
+            <!-- <a href=""><button class="login btn hover-underline-animation">Login</button></a> -->
+            
+            <div class="icons">
+            <span class="search-icon-2 listed">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+            </div>
+            <div class="icon-2">
+                <span class="bm-icon-2 listed">
+                <i class="fa-regular fa-bookmark"></i>
+            </span>
+            </div>
+            
+            <span>
+            <!-- <a href="pages/singup.html"><button class="SignUp btn">Login</button></a> -->
+            <button onclick="veil()" id="SignUp" class="SignUp btn-2">Signin</button>
+            </span>
+        <!-- </div> -->
 
 
     </nav>
+
+    <div id="myNav2" class="veiled">
+        
+    </div>
+
 
     <div id="pyo">
 
@@ -62,10 +86,10 @@
                 <h1>Nostalgic Universe</h1>
             </div>
     <div class="icons-resp">
-        <span id="searchicon" class="search-icon" onclick="fourth()">
+        <span id="searchicon" class="search-icon" onclick="fifth()">
             <i class="fa-solid fa-magnifying-glass"></i>
         </span>
-        <span onclick="fourth()">
+        <span onclick="fifth()">
         <i class="fa-regular fa-bookmark"></i>
         </span>
         <span onclick="fourth()">
@@ -83,8 +107,18 @@
             </div>
 
             <div id="burger2" class="ham2">
-                <span onclick="fourth()">
+                <span onclick="fifth()">
                     <div class="burger2">
+                        <!-- <input class="check" type="checkbox" name="" id=""> -->
+                        <div class="line2 top"></div>
+                        <div class="line2 bottom"></div>
+                    </div>
+                </span>
+            </div>
+
+            <div id="burger3" class="ham3">
+                <span onclick="fourth()">
+                    <div class="burger3">
                         <!-- <input class="check" type="checkbox" name="" id=""> -->
                         <div class="line2 top"></div>
                         <div class="line2 bottom"></div>
@@ -100,16 +134,16 @@
             <!-- <div class="closebtn"><a href="javascript:void(0)" onclick="closeNav()">&times;</a></div> -->
             <div class="overlay-content">
                 <a href="../index.html">Home</a>
-                <a href="../pages/oldtvshows.html">Shows</a>
+                <a href="../showz/showz.html">Shows</a>
                 <a href="../Gutar Goo/gutargoo.html">Chat</a>
                 <a href="https://www.nostalgicuniverse.great-site.net">Forum</a>
                 <a href="#">Store</a>
                 <a href="#">Pricing</a>
-                <a href="#">About</a>
+                <a href="../pages/about.html">About</a>
                 <!-- <a href="#">Games</a>
                 <a href="#">Anime</a>
                 <a href="#">Manga</a> -->
-                <a href="#">Veiled</a>
+                <!-- <a href="#">Veiled</a> -->
             </div>
         </div>
 
@@ -124,11 +158,85 @@
                 </span>
             </div>
         </div> -->
-    
+
 
         <div class="tumseHi"></div>
 
-        <div class="parda">
+        <!-- <div class="parda"> -->
+
+        <!-- </div> -->
+
+    <div class="login-body">
+        <div class="wrapper">
+            <div class="form-box login">
+                <h2>Nostalgic Universe</h2>
+                 <!-- <img src="img/Nostalgic Universe-2.png" alt=""> -->
+                <form action="#">
+                    <!-- <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input type="text" required>
+                        <label>Username</label>
+                    </div> -->
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input type="email" id="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <p class="p-show" onclick="pass2()">Show</p>
+                        <p class="p-hide" onclick="pass2()">Hide</p>
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input id="p2" type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> Remember me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <!-- <button onclick="login()" type="submit" class="btn-3">Log in</button> -->
+                    <button id="login" class="btn-3">Log in</button>
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="#" class="register-link">Sign up</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <h2>Nostalgic Universe</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input id="username" type="text" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input id="email" type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <p class="p-show1" onclick="pass3()">Show</p>
+                        <p class="p-hide1" onclick="pass3()">Hide</p>
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input id="password" type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox"> I agree to the terms & conditions</label>
+                        
+                    </div>
+                    <button id="register" class="btn-3">Sign Up</button>
+                    <div class="login-register">
+                        <p>Have an account? <a href="#" class="login-link">Log in</a></p>
+                    </div>
+                </form>
+            </div>
+
+            
+
+        </div>
+        <button id="logout" class="btn-3 lo-btn">Log Out</button>
+    </div>
 
     <!-- <div class="vpn">
         <p>A VPN is recommended to access the content on this page.</p>

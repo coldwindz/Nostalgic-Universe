@@ -65,13 +65,13 @@ nav {
     align-items: center;
     justify-content: space-between;
 }
-.icons {
+/* .icons {
     height: fit-content;
     width: 30%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+} */
 .hamburger {
     width: 40px;
     height: 30px;
@@ -291,7 +291,8 @@ nav {
     height: 30vh;
     max-width: 100%;
     color: white;
-    padding: 0 2%;
+    
+    /* padding: 0 2%; */
 }
 
 .mostPopular h1 {
@@ -307,18 +308,20 @@ nav {
     display: flex;
     justify-content: space-between;
     padding-right: 2%;
+    padding-left: 2%;
 }
 
 .arrow {
     cursor: pointer;
     display: inline-block;
-    width: 1.5vw;
-    height: 1.5vw;
-    border-top: 5px solid white;
-    border-right: 5px solid white;
+    width: 12px;
+    height: 12px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
     transform: rotate(45deg);
     position: relative;
     top: 15px;
+    /* margin-right: 2%; */
 }
 
 .arrow-top {
@@ -375,20 +378,20 @@ nav {
 
 #space {
     height: auto;
-    width: 10vw;
+    width: 8vw;
 }
 
 .AmvEdit {
-    padding: 0 1%;
+    /* padding: 0 1%; */
     height: fit-content;
-    width: 100%;
+    width: 98%;
     margin-top: 3vh;
 }
 
 .AmvEditContent {
     display: flex;
     justify-content: space-between;
-    margin-right: 4%;
+    margin-right: 2%;
     margin-bottom: 1vh;
 }
 
@@ -398,6 +401,7 @@ nav {
     flex-wrap: wrap;
     color: #f6f6f6;
     justify-content: space-between;
+    
 }
 
 .upload {
@@ -433,8 +437,8 @@ nav {
     align-items: center;
 }
 .edit img {
-    height: 5.2vw; 
-    width: 5.2vw; 
+    /* height: 60px;  */
+    width: 81px; 
     margin-right: 1vw;
     border-radius: 1%;
 }
@@ -445,11 +449,12 @@ nav {
 
 
 #page3 {
-    height: fit-content;
+    height: 280px;
     width: 100%;
     background-color: #121212;
     color: white;
     padding: 0 1%;
+    position: relative;
 }
 
 .nonu {
@@ -612,6 +617,115 @@ nav {
     color: rgb(57, 56, 56);
 }
 
+#space3{
+    height: 50px;
+    background: #0f0f0f;
+}
+.ggcover{
+    background: #0f0f0f;
+}
+.ggplug{
+    background-color: #29AB87;
+    color: #ededee;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.gg1{
+    flex: auto;
+}
+.gg2{
+    flex: auto;
+}
+.gg3{
+    flex: auto;
+}
+.ggbtn{
+    text-align: center;
+    padding-top: 24px;
+    margin-top: 40px;
+    margin-right: 280px;
+}
+.ggbtn button{
+    padding: 8px 20px;
+    border: 2px solid #F1FFFA;
+    border-radius: 50px;
+    background-color: #F1FFFA;
+    color: #464E47;
+    font-weight: 440;
+    font-size: 22px;
+    cursor: pointer;
+    
+}
+.ggbtn button:hover{
+    background-color: #29AB87;
+    color: #F1FFFA;
+    border: 2px solid #F1FFFA;
+}
+.ggplug h2{
+    font-size: 120px;
+    padding-top: 2%;
+    margin-left: 280px;
+}
+.ggplug h1{
+    /* margin-left: 15%; */
+    font-size: 60px;
+    padding-top: 28px;
+    font-weight: 600;
+    text-align: center;
+    
+    
+    
+}
+.ggplug p{
+    /* margin-left: 15%; */
+    font-size: 22px;
+    padding-top: 8px;
+    font-weight: 450;
+    text-align: center;
+}
+
+.mostPopular2 {
+    height: 30vh;
+    max-width: 100%;
+    color: white;
+    padding-right: 0;
+}
+.mostPopular2 h1 {
+    margin: 10px 0;
+}
+.mostPopular3 {
+    height: 30vh;
+    max-width: 100%;
+    color: white;
+    padding-right: 0;
+}
+.mostPopular3 h1 {
+    margin: 10px 0;
+}
+.mostPopular4 {
+    height: 30vh;
+    max-width: 100%;
+    color: white;
+    padding-right: 0;
+}
+.mostPopular4 h1 {
+    margin: 10px 0;
+}
+.mostPopular5 {
+    height: 30vh;
+    max-width: 100%;
+    color: white;
+    padding-right: 0;
+}
+.mostPopular5 h1 {
+    margin: 10px 0;
+}
+.dnone{
+    display: none;
+}
+
 
 /* Media Queries */
 @media (min-width: 1000px) {
@@ -672,8 +786,8 @@ nav {
         width: calc(50% - 40px);
     }
     .arrow {
-        height: 3vw;
-        width: 3vw;
+        height: 2.5vw;
+        width: 2.5vw;
         top: 7px;
     }
     #page2, #page4 {
@@ -776,6 +890,7 @@ nav {
     }
     .chhupja{
         z-index: -1;
+        
     }
     /* .overlay{
         z-index: 100;
@@ -792,6 +907,78 @@ nav {
     #take-top{
         z-index: -1;
     }
+
+    .ggcover{
+        background: #0f0f0f;
+    }
+    .ggplug{
+        background-color: #29AB87;
+        color: #ededee;
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+        
+        
+    }
+    .gg1{
+        flex: auto;
+    }
+    .gg2{
+        flex: auto;
+    }
+    .gg3{
+        flex: auto;
+    }
+    .ggbtn{
+        text-align: center;
+        padding-top: 26px;
+        margin-top: 50px;
+        margin-right: 20px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .ggbtn button{
+        padding: 8px 16px;
+        border: 2px solid #F1FFFA;
+        border-radius: 50px;
+        background-color: #F1FFFA;
+        color: #464E47;
+        font-weight: 480;
+        font-size: 12px;
+        cursor: pointer;
+        
+    }
+    .ggbtn button:hover{
+        background-color: #29AB87;
+        color: #F1FFFA;
+        border: 2px solid #F1FFFA;
+    }
+    .ggplug h2{
+        font-size: 50px;
+        padding-top: 10%;
+        margin-left: 20px;
+    }
+    .ggplug h1{
+        /* margin-left: 15%; */
+        color: #F1FFFA;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0;
+        padding-top: 8%;
+        padding-bottom: 0;
+       
+        
+    }
+    .ggplug p{
+        /* margin-left: 15%; */
+        font-size: 10px;
+        padding-top: 5px;
+        font-weight: 450;
+        text-align: center;
+    }
+    
+
 }
 @media (max-width: 299px) {
     .fpl {

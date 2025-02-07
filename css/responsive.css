@@ -1,4 +1,11 @@
 @media only screen and (max-width: 1140px){
+
+
+    
+    .dmca1{
+        padding: 0% 2%;
+    }
+
     .nav-list{
         flex-direction: column;
         
@@ -1105,5 +1112,14 @@
     .foot{
         bottom: 0;
     }
+    #page3{
+        height: 180px;
+    }
+    #page2{
+        height: 480px;
+    }
+    /* #page4{
+        height: 200px;
+    } */
 
 }

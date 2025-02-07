@@ -7,6 +7,11 @@ navicons = document.querySelector('.icons-resp')
 mpopular = document.querySelector('.mostPopular')
 swiper = document.querySelector('.nonuSlider')
 categories = document.querySelector('.categories')
+mpopular2 = document.querySelector('.mostPopular2')
+mpopular3 = document.querySelector('.mostPopular3')
+mpopular4 = document.querySelector('.mostPopular4')
+mpopular5 = document.querySelector('.mostPopular5')
+
 
 // over = document.querySelector('.overlay')
 // clickburger = document.querySelector('.clickburger')
@@ -42,7 +47,11 @@ burger.addEventListener('click', ()=>{
         // open.classList.toggle('chhupja');
         mpopular.classList.toggle('chhupja');
         categories.classList.toggle('chhupja');
-        swiper.classList.toggle('chhupja');
+        // swiper.classList.toggle('chhupja');
+        mpopular2.classList.toggle('dnone');
+        mpopular3.classList.toggle('dnone');
+        mpopular4.classList.toggle('dnone');
+        mpopular5.classList.toggle('dnone');
     }
 
     // let open2 = document.querySelector('.overlay2');
@@ -97,6 +106,9 @@ ham3 = document.querySelector('.ham3')
         hamMenu.classList.toggle('no-display');
         navlogo.classList.toggle('v-class-resp');
         navicons.classList.toggle('no-display');
+
+        mpopular.classList.toggle('chhupja');
+        categories.classList.toggle('chhupja');
         // mpopular.classList.toggle('chhupja');
         // categories.classList.toggle('chhupja');
         // hamMenu.classList.toggle('display-on');
@@ -109,9 +121,13 @@ ham3 = document.querySelector('.ham3')
 
         overlay2.classList.toggle('login-body');
         overlay2.classList.toggle('h-login-body');
-        overlay2.classList.toggle('fade-in');
-        Wrapper2.classList.toggle('popup');
-        
+        // overlay2.classList.toggle('fade-in');
+        // Wrapper2.classList.toggle('popup');
+
+        mpopular2.classList.toggle('dnone');
+        mpopular3.classList.toggle('dnone');
+        mpopular4.classList.toggle('dnone');
+        mpopular5.classList.toggle('dnone');
     }
 
     // function crazy() {
@@ -128,6 +144,10 @@ ham3 = document.querySelector('.ham3')
         navicons.classList.toggle('no-display');
         mpopular.classList.toggle('chhupja');
         categories.classList.toggle('chhupja');
+        mpopular2.classList.toggle('dnone');
+        mpopular3.classList.toggle('dnone');
+        mpopular4.classList.toggle('dnone');
+        mpopular5.classList.toggle('dnone');
     }
 
     // let open2 = document.querySelector('.overlay');

@@ -1,10 +1,10 @@
-function closeButton() {
-	closeButton = document.getElementById("closeButton")
-	closeButton.addEventListener("click", function () {
-		document.querySelector(".bookmark").style.display = "none";
-	});
-}
-closeButton();
+// function closeButton() {
+// 	closeButton = document.getElementById("closeButton")
+// 	closeButton.addEventListener("click", function () {
+// 		document.querySelector(".bookmark").style.display = "none";
+// 	});
+// }
+// closeButton();
 
 function btnSwiper () {
 	var btnswiper = new Swiper('.swiper-container-1', {
